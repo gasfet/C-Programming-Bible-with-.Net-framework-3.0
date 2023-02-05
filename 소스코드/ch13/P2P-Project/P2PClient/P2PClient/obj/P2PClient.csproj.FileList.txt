@@ -1,0 +1,12 @@
+bin\Debug\P2PClient.exe
+bin\Debug\P2PClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\P2PClient.Properties.Resources.resources
+obj\Debug\P2PClient.csproj.GenerateResource.Cache
+obj\Debug\P2PClient.exe
+obj\Debug\P2PClient.pdb
+obj\Debug\P2PClient.MainWnd.resources
+obj\Debug\P2PClient.FileDownWnd.resources
+obj\Debug\P2PClient.OptionWnd.resources
+obj\Debug\P2PClient.RegisterWnd.resources
+obj\Debug\P2PClient.SearchWnd.resources

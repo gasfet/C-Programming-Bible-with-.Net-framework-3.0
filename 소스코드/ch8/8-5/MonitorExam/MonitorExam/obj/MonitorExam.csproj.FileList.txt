@@ -1,0 +1,5 @@
+bin\Debug\MonitorExam.exe
+bin\Debug\MonitorExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MonitorExam.exe
+obj\Debug\MonitorExam.pdb

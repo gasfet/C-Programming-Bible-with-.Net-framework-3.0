@@ -1,0 +1,5 @@
+bin\Debug\MetafileExam.exe
+bin\Debug\MetafileExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MetafileExam.exe
+obj\Debug\MetafileExam.pdb

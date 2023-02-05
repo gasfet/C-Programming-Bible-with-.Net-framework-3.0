@@ -1,0 +1,5 @@
+bin\Debug\CommentExam2.exe
+bin\Debug\CommentExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CommentExam2.exe
+obj\Debug\CommentExam2.pdb

@@ -1,0 +1,5 @@
+bin\Debug\XmlValidSchema.exe
+bin\Debug\XmlValidSchema.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XmlValidSchema.exe
+obj\Debug\XmlValidSchema.pdb

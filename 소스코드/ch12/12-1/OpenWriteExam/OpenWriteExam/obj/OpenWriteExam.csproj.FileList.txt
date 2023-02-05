@@ -1,0 +1,5 @@
+bin\Debug\OpenWriteExam.exe
+bin\Debug\OpenWriteExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\OpenWriteExam.exe
+obj\Debug\OpenWriteExam.pdb

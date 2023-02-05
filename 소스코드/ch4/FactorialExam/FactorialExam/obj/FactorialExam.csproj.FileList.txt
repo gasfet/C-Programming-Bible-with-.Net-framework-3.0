@@ -1,0 +1,5 @@
+bin\Debug\FactorialExam.exe
+bin\Debug\FactorialExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FactorialExam.exe
+obj\Debug\FactorialExam.pdb

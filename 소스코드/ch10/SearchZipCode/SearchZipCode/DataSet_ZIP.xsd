@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSet_ZIP" targetNamespace="http://www.tempuri.org/DataSet_ZIP.xsd" xmlns:mstns="http://www.tempuri.org/DataSet_ZIP.xsd" xmlns="http://www.tempuri.org/DataSet_ZIP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSet_ZIP" msdata:IsDataSet="true" msdata:Locale="ko-KR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="zipcode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="num" type="xs:int" />
+              <xs:element name="zipcode" type="xs:string" minOccurs="0" />
+              <xs:element name="addr1" type="xs:string" minOccurs="0" />
+              <xs:element name="addr2" type="xs:string" minOccurs="0" />
+              <xs:element name="addr3" type="xs:string" minOccurs="0" />
+              <xs:element name="no_start" type="xs:string" minOccurs="0" />
+              <xs:element name="no_end" type="xs:string" minOccurs="0" />
+              <xs:element name="addr4" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:zipcode" />
+      <xs:field xpath="mstns:num" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+bin\Debug\ExIPEndPoint.exe
+bin\Debug\ExIPEndPoint.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ExIPEndPoint.exe
+obj\Debug\ExIPEndPoint.pdb

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormExam2", "WinFormExam2.csproj", "{F8ACA4D1-133E-4CDD-B393-E07658519273}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F8ACA4D1-133E-4CDD-B393-E07658519273}.Debug.ActiveCfg = Debug|.NET
+		{F8ACA4D1-133E-4CDD-B393-E07658519273}.Debug.Build.0 = Debug|.NET
+		{F8ACA4D1-133E-4CDD-B393-E07658519273}.Release.ActiveCfg = Release|.NET
+		{F8ACA4D1-133E-4CDD-B393-E07658519273}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

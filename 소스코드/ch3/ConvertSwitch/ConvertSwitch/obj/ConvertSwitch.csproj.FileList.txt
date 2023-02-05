@@ -1,0 +1,5 @@
+bin\Debug\ConvertSwitch.exe
+bin\Debug\ConvertSwitch.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ConvertSwitch.exe
+obj\Debug\ConvertSwitch.pdb

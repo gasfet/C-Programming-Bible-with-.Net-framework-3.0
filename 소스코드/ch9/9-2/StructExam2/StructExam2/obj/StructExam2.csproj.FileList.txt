@@ -1,0 +1,5 @@
+bin\Debug\StructExam2.exe
+bin\Debug\StructExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StructExam2.exe
+obj\Debug\StructExam2.pdb

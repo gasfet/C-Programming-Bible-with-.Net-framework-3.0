@@ -1,0 +1,8 @@
+bin\Debug\TcpScan.exe
+bin\Debug\TcpScan.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TcpScan.Form1.resources
+obj\Debug\TcpScan.Properties.Resources.resources
+obj\Debug\TcpScan.csproj.GenerateResource.Cache
+obj\Debug\TcpScan.exe
+obj\Debug\TcpScan.pdb

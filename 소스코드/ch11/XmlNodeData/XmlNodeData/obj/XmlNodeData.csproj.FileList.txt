@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\XmlNodeData.exe
+bin\Debug\XmlNodeData.pdb
+obj\Debug\XmlNodeData.exe
+obj\Debug\XmlNodeData.pdb

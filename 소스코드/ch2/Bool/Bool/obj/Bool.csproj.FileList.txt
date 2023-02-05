@@ -1,0 +1,5 @@
+bin\Debug\Bool.exe
+bin\Debug\Bool.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Bool.exe
+obj\Debug\Bool.pdb

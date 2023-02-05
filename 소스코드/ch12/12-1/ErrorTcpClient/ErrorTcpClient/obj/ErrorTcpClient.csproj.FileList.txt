@@ -1,0 +1,5 @@
+bin\Debug\ErrorTcpClient.exe
+bin\Debug\ErrorTcpClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ErrorTcpClient.exe
+obj\Debug\ErrorTcpClient.pdb

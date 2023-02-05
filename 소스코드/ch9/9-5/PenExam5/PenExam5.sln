@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenExam5", "PenExam5\PenExam5.csproj", "{EBF89D12-F08E-44DF-940D-265D16CD516C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF89D12-F08E-44DF-940D-265D16CD516C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF89D12-F08E-44DF-940D-265D16CD516C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF89D12-F08E-44DF-940D-265D16CD516C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF89D12-F08E-44DF-940D-265D16CD516C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

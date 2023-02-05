@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewWinForm5", "NewWinForm5\NewWinForm5.csproj", "{4AE51AE2-E9B8-4DE8-8A95-1E478C21E05F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE51AE2-E9B8-4DE8-8A95-1E478C21E05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE51AE2-E9B8-4DE8-8A95-1E478C21E05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE51AE2-E9B8-4DE8-8A95-1E478C21E05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE51AE2-E9B8-4DE8-8A95-1E478C21E05F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

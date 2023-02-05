@@ -1,0 +1,16 @@
+bin\Debug\Mp3Exam.exe
+bin\Debug\Mp3Exam.pdb
+bin\Debug\Interop.MediaPlayer.dll
+bin\Debug\Interop.WMPLib.dll
+bin\Debug\AxInterop.WMPLib.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.MediaPlayer.dll
+obj\Debug\Interop.WMPLib.dll
+obj\Debug\AxInterop.WMPLib.dll
+obj\Debug\Mp3Exam.csproj.ResolveComReference.cache
+obj\Debug\Mp3Exam.Properties.Resources.resources
+obj\Debug\Mp3Exam.csproj.GenerateResource.Cache
+obj\Debug\Mp3Exam.exe
+obj\Debug\Mp3Exam.pdb
+obj\Debug\Mp3Exam.MainWnd.resources
+obj\Debug\Mp3Exam.MusicListWnd.resources

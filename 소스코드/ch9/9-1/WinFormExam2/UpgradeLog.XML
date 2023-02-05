@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WinFormExam2">
+</Property><Property Name="Solution File" Value="E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\WinFormExam2.sln">
+</Property><Property Name="User Options File" Value="E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\WinFormExam2.suo">
+</Property><Property Name="Date" Value="2005년 9월 17일 토요일">
+</Property><Property Name="Time" Value="오전 4:26">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WinFormExam2.sln" Description="File successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\WinFormExam2.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WinFormExam2.suo" Description="File successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\WinFormExam2.suo">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="WinFormExam2.csproj" Description="Project file successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\WinFormExam2.csproj">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="WinFormExam2.csproj.user" Description="Project user file successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\WinFormExam2.csproj.user">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="Form1.cs" Description="File successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="App.ico" Description="File successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="Form1.resx" Description="File successfully backed up as E:\C#Bible2006\소스코드\ch10\10-1\WinFormExam2\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="WinFormExam2" Source="WinFormExam2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WinFormExam2" Source="WinFormExam2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WinFormExam2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WinFormExam2.sln" Description="Converted">
+</Event></UpgradeLog>

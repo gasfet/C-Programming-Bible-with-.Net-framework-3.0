@@ -1,0 +1,5 @@
+bin\Debug\StringExam3.exe
+bin\Debug\StringExam3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StringExam3.exe
+obj\Debug\StringExam3.pdb

@@ -1,0 +1,202 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC7DD907-CF5E-401F-A0E5-717AD6E82D65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MessengerClient</RootNamespace>
+    <AssemblyName>MessengerClient</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutWnd.Designer.cs">
+      <DependentUpon>AboutWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatNetwork.cs" />
+    <Compile Include="ChatServer.cs" />
+    <Compile Include="ChatWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatWnd.Designer.cs">
+      <DependentUpon>ChatWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CryptoAPI.cs" />
+    <Compile Include="DefineValue.cs" />
+    <Compile Include="EmoticonWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmoticonWnd.Designer.cs">
+      <DependentUpon>EmoticonWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileClient.cs" />
+    <Compile Include="FileServer.cs" />
+    <Compile Include="FriendWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FriendWnd.Designer.cs">
+      <DependentUpon>FriendWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupWnd.Designer.cs">
+      <DependentUpon>GroupWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailSendWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailSendWnd.Designer.cs">
+      <DependentUpon>MailSendWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWnd.Designer.cs">
+      <DependentUpon>MainWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Network.cs" />
+    <Compile Include="NotifyWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotifyWnd.Designer.cs">
+      <DependentUpon>NotifyWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionWnd.Designer.cs">
+      <DependentUpon>OptionWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChatWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmoticonWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmoticonWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriendWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FriendWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailSendWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailSendWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotifyWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NotifyWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZipcodeWnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ZipcodeWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegForm.Designer.cs">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegNetwork.cs" />
+    <Compile Include="ZipcodeWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZipcodeWnd.Designer.cs">
+      <DependentUpon>ZipcodeWnd.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image_BackgroundImage.bmp" />
+    <EmbeddedResource Include="Image_Backimage.bmp" />
+    <EmbeddedResource Include="Image_CloseImage.bmp" />
+    <EmbeddedResource Include="Image_Emoticons.bmp" />
+    <EmbeddedResource Include="Image_etc.bmp" />
+    <EmbeddedResource Include="Image_group.bmp" />
+    <EmbeddedResource Include="Image_leave.bmp" />
+    <EmbeddedResource Include="Image_logo.gif" />
+    <EmbeddedResource Include="Image_meal.bmp" />
+    <EmbeddedResource Include="Image_offline.bmp" />
+    <EmbeddedResource Include="Image_online.bmp" />
+    <EmbeddedResource Include="Image_return.bmp" />
+    <EmbeddedResource Include="Image_tel.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+bin\Debug\ByteExam.exe
+bin\Debug\ByteExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ByteExam.exe
+obj\Debug\ByteExam.pdb

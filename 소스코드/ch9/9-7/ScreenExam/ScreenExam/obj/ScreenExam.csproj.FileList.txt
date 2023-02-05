@@ -1,0 +1,5 @@
+bin\Debug\ScreenExam.exe
+bin\Debug\ScreenExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ScreenExam.exe
+obj\Debug\ScreenExam.pdb

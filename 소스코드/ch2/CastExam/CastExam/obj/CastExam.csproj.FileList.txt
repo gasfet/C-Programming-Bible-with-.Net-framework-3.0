@@ -1,0 +1,5 @@
+bin\Debug\CastExam.exe
+bin\Debug\CastExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CastExam.exe
+obj\Debug\CastExam.pdb

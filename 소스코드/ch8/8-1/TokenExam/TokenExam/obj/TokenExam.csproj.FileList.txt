@@ -1,0 +1,8 @@
+bin\Debug\TokenExam.exe
+bin\Debug\TokenExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TokenExam.Form1.resources
+obj\Debug\TokenExam.Properties.Resources.resources
+obj\Debug\TokenExam.csproj.GenerateResource.Cache
+obj\Debug\TokenExam.exe
+obj\Debug\TokenExam.pdb

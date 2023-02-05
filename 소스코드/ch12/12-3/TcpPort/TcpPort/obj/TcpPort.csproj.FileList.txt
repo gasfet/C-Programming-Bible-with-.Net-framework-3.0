@@ -1,0 +1,8 @@
+bin\Debug\TcpPort.exe
+bin\Debug\TcpPort.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TcpPort.Form1.resources
+obj\Debug\TcpPort.Properties.Resources.resources
+obj\Debug\TcpPort.csproj.GenerateResource.Cache
+obj\Debug\TcpPort.exe
+obj\Debug\TcpPort.pdb

@@ -1,0 +1,7 @@
+obj\Debug\WebInfo.exe
+obj\Debug\WebInfo.pdb
+bin\Debug\WebInfo.exe
+bin\Debug\WebInfo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WebInfo.Form1.resources
+obj\Debug\WebInfo.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+bin\Debug\P2PServer.exe
+bin\Debug\P2PServer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\P2PServer.MainForm.resources
+obj\Debug\P2PServer.Properties.Resources.resources
+obj\Debug\P2PServer.csproj.GenerateResource.Cache
+obj\Debug\P2PServer.exe
+obj\Debug\P2PServer.pdb

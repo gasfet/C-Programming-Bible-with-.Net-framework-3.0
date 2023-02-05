@@ -1,0 +1,5 @@
+bin\Debug\DelegateExam2.exe
+bin\Debug\DelegateExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DelegateExam2.exe
+obj\Debug\DelegateExam2.pdb

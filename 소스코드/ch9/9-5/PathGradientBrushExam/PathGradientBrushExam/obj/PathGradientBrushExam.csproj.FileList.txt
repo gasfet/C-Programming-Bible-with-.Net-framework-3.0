@@ -1,0 +1,5 @@
+bin\Debug\PathGradientBrushExam.exe
+bin\Debug\PathGradientBrushExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PathGradientBrushExam.exe
+obj\Debug\PathGradientBrushExam.pdb

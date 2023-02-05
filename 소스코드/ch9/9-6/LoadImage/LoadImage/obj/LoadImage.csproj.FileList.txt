@@ -1,0 +1,5 @@
+bin\Debug\LoadImage.exe
+bin\Debug\LoadImage.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LoadImage.exe
+obj\Debug\LoadImage.pdb

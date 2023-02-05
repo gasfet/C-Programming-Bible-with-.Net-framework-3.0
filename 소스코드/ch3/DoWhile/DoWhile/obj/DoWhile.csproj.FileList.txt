@@ -1,0 +1,5 @@
+bin\Debug\DoWhile.exe
+bin\Debug\DoWhile.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoWhile.exe
+obj\Debug\DoWhile.pdb

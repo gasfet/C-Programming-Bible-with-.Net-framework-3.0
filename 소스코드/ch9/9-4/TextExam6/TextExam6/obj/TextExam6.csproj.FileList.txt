@@ -1,0 +1,5 @@
+bin\Debug\TextExam6.exe
+bin\Debug\TextExam6.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TextExam6.exe
+obj\Debug\TextExam6.pdb

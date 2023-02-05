@@ -1,0 +1,8 @@
+bin\Debug\DataTableExam.exe
+bin\Debug\DataTableExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataTableExam.Form1.resources
+obj\Debug\DataTableExam.Properties.Resources.resources
+obj\Debug\DataTableExam.csproj.GenerateResource.Cache
+obj\Debug\DataTableExam.exe
+obj\Debug\DataTableExam.pdb

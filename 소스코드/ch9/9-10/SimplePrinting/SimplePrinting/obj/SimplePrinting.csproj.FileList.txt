@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SimplePrinting.Form1.resources
+obj\Debug\SimplePrinting.Properties.Resources.resources
+obj\Debug\SimplePrinting.csproj.GenerateResource.Cache
+bin\Debug\SimplePrinting.exe
+bin\Debug\SimplePrinting.pdb
+obj\Debug\SimplePrinting.exe
+obj\Debug\SimplePrinting.pdb

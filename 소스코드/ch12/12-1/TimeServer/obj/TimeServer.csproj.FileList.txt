@@ -1,0 +1,7 @@
+bin\Debug\TimeServer.exe
+bin\Debug\TimeServer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TimeServer.Form1.resources
+obj\Debug\TimeServer.csproj.GenerateResource.Cache
+obj\Debug\TimeServer.exe
+obj\Debug\TimeServer.pdb

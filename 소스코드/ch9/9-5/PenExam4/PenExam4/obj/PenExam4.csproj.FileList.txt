@@ -1,0 +1,5 @@
+bin\Debug\PenExam4.exe
+bin\Debug\PenExam4.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PenExam4.exe
+obj\Debug\PenExam4.pdb

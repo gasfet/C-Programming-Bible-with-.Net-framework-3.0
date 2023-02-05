@@ -1,0 +1,5 @@
+bin\Debug\ScrollExam.exe
+bin\Debug\ScrollExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ScrollExam.exe
+obj\Debug\ScrollExam.pdb

@@ -1,0 +1,5 @@
+bin\Debug\StreamExam5.exe
+bin\Debug\StreamExam5.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StreamExam5.exe
+obj\Debug\StreamExam5.pdb

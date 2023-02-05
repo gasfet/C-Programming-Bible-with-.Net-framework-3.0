@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TimeServer">
+</Property><Property Name="솔루션 파일" Value="E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\TimeServer.sln">
+</Property><Property Name="사용자 옵션 파일" Value="E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\TimeServer.suo">
+</Property><Property Name="Date" Value="2006년 7월 23일 일요일">
+</Property><Property Name="Time" Value="오후 22:04">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TimeServer.sln" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeServer.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="TimeServer.suo" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeServer.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="TimeServer.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeServer.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="TimeServer.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeServer.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="Form1.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\Form1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="Form1.resx" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\Form1.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="TimeServer.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="TimeServer" Source="TimeServer.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="TimeClient" Source="..\TimeClient\TimeClient.csproj" Description="경고: 원래 솔루션 상대 경로와 다른 상대 경로에 프로젝트 파일을 백업하고 있습니다. 폴더 계층 구조가 다르면 백업한 솔루션 및 프로젝트를 열거나 빌드하는 데 문제가 발생할 수 있습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\TimeClient.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeClient\TimeClient.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\TimeClient.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeClient\TimeClient.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeClient\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\Form1.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeClient\Form1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeClient\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\Form1.resx" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TimeServer\Backup\TimeClient\Form1.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\TimeClient.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="TimeClient" Source="..\TimeClient\TimeClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TimeServer.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="TimeServer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TimeServer" Source="TimeServer.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event><Event ErrorLevel="0" Project="TimeClient" Source="..\TimeClient\TimeClient.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

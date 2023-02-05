@@ -1,0 +1,8 @@
+bin\Debug\SoundExam.exe
+bin\Debug\SoundExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SoundExam.Form1.resources
+obj\Debug\SoundExam.Properties.Resources.resources
+obj\Debug\SoundExam.csproj.GenerateResource.Cache
+obj\Debug\SoundExam.exe
+obj\Debug\SoundExam.pdb

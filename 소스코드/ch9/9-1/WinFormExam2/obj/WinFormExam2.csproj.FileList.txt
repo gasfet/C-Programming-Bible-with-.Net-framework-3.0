@@ -1,0 +1,5 @@
+obj\Debug\WinFormExam2.exe
+obj\Debug\WinFormExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinFormExam2.Form1.resources
+obj\Debug\WinFormExam2.csproj.GenerateResource.Cache

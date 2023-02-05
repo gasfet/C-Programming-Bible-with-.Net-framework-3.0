@@ -1,0 +1,5 @@
+bin\Debug\InterfaceExam3.exe
+bin\Debug\InterfaceExam3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\InterfaceExam3.exe
+obj\Debug\InterfaceExam3.pdb

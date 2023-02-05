@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.MediaPlayer.dll
+obj\Debug\MDIViewer.csproj.ResolveComReference.cache
+obj\Debug\MDIViewer.frmChild.resources
+obj\Debug\MDIViewer.frmMDI.resources
+obj\Debug\MDIViewer.csproj.GenerateResource.Cache
+bin\Debug\MDIViewer.exe
+bin\Debug\MDIViewer.pdb
+bin\Debug\Interop.MediaPlayer.dll
+obj\Debug\MDIViewer.exe
+obj\Debug\MDIViewer.pdb

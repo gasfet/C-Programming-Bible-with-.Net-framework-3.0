@@ -1,0 +1,5 @@
+bin\Debug\GraphicsPathExam2.exe
+bin\Debug\GraphicsPathExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GraphicsPathExam2.exe
+obj\Debug\GraphicsPathExam2.pdb

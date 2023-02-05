@@ -1,0 +1,5 @@
+bin\Debug\ValidateExam.exe
+bin\Debug\ValidateExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ValidateExam.exe
+obj\Debug\ValidateExam.pdb

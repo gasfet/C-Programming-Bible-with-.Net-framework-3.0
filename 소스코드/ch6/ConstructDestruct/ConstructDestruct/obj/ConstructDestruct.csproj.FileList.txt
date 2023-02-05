@@ -1,0 +1,5 @@
+bin\Debug\ConstructDestruct.exe
+bin\Debug\ConstructDestruct.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ConstructDestruct.exe
+obj\Debug\ConstructDestruct.pdb

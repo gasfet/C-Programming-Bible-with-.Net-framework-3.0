@@ -1,0 +1,5 @@
+bin\Debug\XmlValidDTD.exe
+bin\Debug\XmlValidDTD.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XmlValidDTD.exe
+obj\Debug\XmlValidDTD.pdb

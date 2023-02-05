@@ -1,0 +1,5 @@
+bin\Debug\EnumeratorExam.exe
+bin\Debug\EnumeratorExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EnumeratorExam.exe
+obj\Debug\EnumeratorExam.pdb

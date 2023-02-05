@@ -1,0 +1,5 @@
+bin\Debug\ShiftTest.exe
+bin\Debug\ShiftTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ShiftTest.exe
+obj\Debug\ShiftTest.pdb

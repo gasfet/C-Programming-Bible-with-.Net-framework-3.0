@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\XmlTextReaderExam.exe
+bin\Debug\XmlTextReaderExam.pdb
+obj\Debug\XmlTextReaderExam.exe
+obj\Debug\XmlTextReaderExam.pdb

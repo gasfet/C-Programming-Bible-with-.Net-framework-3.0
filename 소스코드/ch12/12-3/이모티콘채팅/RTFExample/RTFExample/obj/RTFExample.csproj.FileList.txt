@@ -1,0 +1,8 @@
+bin\Debug\RTFExample.exe
+bin\Debug\RTFExample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RTFExample.Form1.resources
+obj\Debug\RTFExample.Properties.Resources.resources
+obj\Debug\RTFExample.csproj.GenerateResource.Cache
+obj\Debug\RTFExample.exe
+obj\Debug\RTFExample.pdb

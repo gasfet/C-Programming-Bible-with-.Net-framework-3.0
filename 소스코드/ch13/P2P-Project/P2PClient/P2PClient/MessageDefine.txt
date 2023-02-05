@@ -1,0 +1,24 @@
+
+/// 서버-클라이언트, 클라이언트-클라이언트 통신 메시지
+/*
+ ▶ 서버에서 에러가 발생할 때   ⇒ 형식) S_RES_ERROR#에러메시지
+ ▶ 서버 로그인 요청            ⇒ 형식) C_REQ_LOGIN#아이디#비밀번호#접속컴퓨터IP
+ ▶ 서버 로그아웃 요청          ⇒ 형식) C_REQ_LOGOUT#접속컴퓨터IP
+ ▶ 접속 서버 리스트 갱신 요청  ⇒ 형식) C_REQ_REFRESH#접속컴퓨터IP
+ ▶ 접속 서버 리스트 갱신       ⇒ 형식) S_RES_REFRESH#접속컴퓨터IP
+ ▶ 아이디 중복 체크 요청       ⇒ 형식) C_REQ_MEMBERID_CHECK#아이디
+ ▶ 회원 가입 요청              ⇒ 형식) C_REQ_MEMBER#아이디#암호#이메일주소
+ ▶ 로그인 성공                 ⇒ 형식) S_RES_LOGINOK#
+ ▶ 로그인 실패                 ⇒ 형식) S_RES_LOGINFAIL#
+ ▶ 로그 아웃                   ⇒ 형식) S_RES_LOGOUT#
+ ▶ 아이디 사용가능             ⇒ 형식) S_RES_MEMBERIDOK#
+ ▶ 아이디 사용불가             ⇒ 형식) S_RES_MEMBERIDFAIL#
+ ▶ 회원 가입 성공              ⇒ 형식) S_RES_MEMBEROK#
+ ▶ 회원 가입 실패              ⇒ 형식) S_RES_MEMBERFAIL#
+ ▶ 로그인 아이디 틀림          ⇒ 형식) S_RES_USERIDFAIL#
+ ▶ 로그인 비밀번호 틀림        ⇒ 형식) S_RES_PASSWORDFAIL#
+ ▶ 파일 검색 요청              ⇒ 형식) S_C_FILE#검색요청컴퓨터IP#검색파일명
+ ▶ 파일 다운로드 요청          ⇒ 형식) S_S_FILEDOWN#다운요청컴퓨터IP#파일이름#파일크기
+ ▶ 파일 이어받기 다운로드      ⇒ 형식) S_S_FILEDOWN_STARTPOSITION#전송할파일시작위치
+ ▶ 파일 검색  결과             ⇒ 형식) S_S_FILE#검색서버IP#파일개수#파일이름&파일사이즈&파일생성일
+*/

@@ -1,0 +1,5 @@
+bin\Debug\HashTableExam.exe
+bin\Debug\HashTableExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HashTableExam.exe
+obj\Debug\HashTableExam.pdb

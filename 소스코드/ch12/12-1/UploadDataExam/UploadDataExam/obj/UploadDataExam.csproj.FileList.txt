@@ -1,0 +1,5 @@
+bin\Debug\UploadDataExam.exe
+bin\Debug\UploadDataExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UploadDataExam.exe
+obj\Debug\UploadDataExam.pdb

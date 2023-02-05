@@ -1,0 +1,8 @@
+bin\Debug\DataViewExam.exe
+bin\Debug\DataViewExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataViewExam.Form1.resources
+obj\Debug\DataViewExam.Properties.Resources.resources
+obj\Debug\DataViewExam.csproj.GenerateResource.Cache
+obj\Debug\DataViewExam.exe
+obj\Debug\DataViewExam.pdb

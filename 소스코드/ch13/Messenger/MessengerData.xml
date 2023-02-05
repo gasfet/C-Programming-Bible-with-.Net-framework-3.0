@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <TBL_Member>
+    <user_id>korea</user_id>
+    <pwd>magic</pwd>
+    <name>김동현</name>
+    <nickname>아시아나</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>01-123-1121    </tel>
+    <email>e@ee.com</email>
+    <zipcode>402-839</zipcode>
+    <address>인천 남구 주안1동 394~400 11-5</address>
+    <intro>우하하~~</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>korea1004</user_id>
+    <pwd>11111</pwd>
+    <name>하늘이</name>
+    <nickname>밝은별</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>02-123-1234    </tel>
+    <email>mm@em.com</email>
+    <address>134-050 서울 123-25</address>
+    <intro>우하하..^^</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>magic</user_id>
+    <pwd>magic</pwd>
+    <name>최재규</name>
+    <nickname>밝은미소</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>02-123-1234    </tel>
+    <email>magicsoft@hanafos.com</email>
+    <address>134-703 서울 (101~116동) 138-8</address>
+    <intro>만든이..</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>magickor</user_id>
+    <pwd>11111</pwd>
+    <name>매직</name>
+    <nickname>우하하</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>11-3112-2      </tel>
+    <email>mm@dm.com</email>
+    <zipcode>143-903</zipcode>
+    <address>서울 광진구 중곡1동 221~241 우이씨..</address>
+    <intro>이론...</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>magicsoft</user_id>
+    <pwd>magic</pwd>
+    <name>최재규</name>
+    <nickname>밝은미소</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>01-22123-11    </tel>
+    <email>magicsoft@empal.com</email>
+    <zipcode>143-899</zipcode>
+    <address>서울 광진구 중곡1동 162~165 135</address>
+    <intro>이거 만든사람!</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>monkey</user_id>
+    <pwd>22222</pwd>
+    <name>원숭이</name>
+    <nickname>몽키</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>01-222-3125    </tel>
+    <email>m@m.com</email>
+    <address>143-222 서울 광진구 중곡2동 우리집</address>
+    <intro>이히히</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>park1</user_id>
+    <pwd>park11</pwd>
+    <name>박진수</name>
+    <nickname>파리</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>061-3213-1111  </tel>
+    <email>park@p.p</email>
+    <zipcode>210-933</zipcode>
+    <address>강원 강릉시 옥천동 183~370 상동..</address>
+    <intro>우하하~~</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>parkjs</user_id>
+    <pwd>11111</pwd>
+    <name>진수</name>
+    <nickname>멋쟁이</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>02-000-1111    </tel>
+    <email>jinsoo@han.com</email>
+    <zipcode>158-854</zipcode>
+    <address>서울 양천구 신정1동 542~543 195-5</address>
+    <intro>하하</intro>
+  </TBL_Member>
+  <TBL_Member>
+    <user_id>sori0328</user_id>
+    <pwd>11111</pwd>
+    <name>예쁜이</name>
+    <nickname>밝은미소</nickname>
+    <ssn>123456-1234567</ssn>
+    <tel>010-1111-1111  </tel>
+    <email>sori@ss.com</email>
+    <zipcode>158-070</zipcode>
+    <address>서울 양천구 신정동  ~ 13</address>
+    <intro>밝은미소</intro>
+  </TBL_Member>
+  <TBL_Friend>
+    <user_id>korea</user_id>
+    <friend_id>magicsoft</friend_id>
+    <group_id>1</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>korea</user_id>
+    <friend_id>park1</friend_id>
+    <group_id>4</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>korea</user_id>
+    <friend_id>hee</friend_id>
+    <group_id>4</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>magicsoft</user_id>
+    <friend_id>hee</friend_id>
+    <group_id>5</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>korea</user_id>
+    <friend_id>korea1004</friend_id>
+    <group_id>3</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>korea</user_id>
+    <friend_id>magickor</friend_id>
+    <group_id>4</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>magicsoft</user_id>
+    <friend_id>korea</friend_id>
+    <group_id>2</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>park1</user_id>
+    <friend_id>korea</friend_id>
+    <group_id>5</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>hee</user_id>
+    <friend_id>korea</friend_id>
+    <group_id>6</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>magic</user_id>
+    <friend_id>korea</friend_id>
+    <group_id>8</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>magic</user_id>
+    <friend_id>parkjs</friend_id>
+    <group_id>9</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>magic</user_id>
+    <friend_id>hee</friend_id>
+    <group_id>8</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>magic</user_id>
+    <friend_id>sori0328</friend_id>
+    <group_id>7</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>korea</user_id>
+    <friend_id>magic</friend_id>
+    <group_id>4</group_id>
+  </TBL_Friend>
+  <TBL_Friend>
+    <user_id>hee</user_id>
+    <friend_id>magic</friend_id>
+    <group_id>6</group_id>
+  </TBL_Friend>
+  <TBL_Group>
+    <group_id>1</group_id>
+    <group_name>동료</group_name>
+    <user_id>korea</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>2</group_id>
+    <group_name>친구</group_name>
+    <user_id>magicsoft</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>3</group_id>
+    <group_name>가까운이1</group_name>
+    <user_id>korea</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>4</group_id>
+    <group_name>회사동료</group_name>
+    <user_id>korea</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>5</group_id>
+    <group_name>친구</group_name>
+    <user_id>park1</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>7</group_id>
+    <group_name>가족</group_name>
+    <user_id>magic</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>8</group_id>
+    <group_name>친구</group_name>
+    <user_id>magic</user_id>
+  </TBL_Group>
+  <TBL_Group>
+    <group_id>9</group_id>
+    <group_name>동호회</group_name>
+    <user_id>magic</user_id>
+  </TBL_Group>
+</NewDataSet>

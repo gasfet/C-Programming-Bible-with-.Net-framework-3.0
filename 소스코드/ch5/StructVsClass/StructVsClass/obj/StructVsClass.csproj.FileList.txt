@@ -1,0 +1,5 @@
+bin\Debug\StructVsClass.exe
+bin\Debug\StructVsClass.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StructVsClass.exe
+obj\Debug\StructVsClass.pdb

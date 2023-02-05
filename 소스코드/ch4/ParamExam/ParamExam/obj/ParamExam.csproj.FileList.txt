@@ -1,0 +1,5 @@
+bin\Debug\ParamExam.exe
+bin\Debug\ParamExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ParamExam.exe
+obj\Debug\ParamExam.pdb

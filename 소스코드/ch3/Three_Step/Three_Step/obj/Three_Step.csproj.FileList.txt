@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Three_Step.exe
+bin\Debug\Three_Step.pdb
+obj\Debug\Three_Step.exe
+obj\Debug\Three_Step.pdb

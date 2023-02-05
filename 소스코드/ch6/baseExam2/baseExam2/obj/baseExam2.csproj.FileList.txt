@@ -1,0 +1,5 @@
+bin\Debug\baseExam2.exe
+bin\Debug\baseExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\baseExam2.exe
+obj\Debug\baseExam2.pdb

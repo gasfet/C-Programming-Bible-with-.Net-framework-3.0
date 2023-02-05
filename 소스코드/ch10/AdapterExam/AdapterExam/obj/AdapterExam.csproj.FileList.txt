@@ -1,0 +1,5 @@
+bin\Debug\AdapterExam.exe
+bin\Debug\AdapterExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AdapterExam.exe
+obj\Debug\AdapterExam.pdb

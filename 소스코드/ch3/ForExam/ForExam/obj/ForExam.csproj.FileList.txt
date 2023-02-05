@@ -1,0 +1,5 @@
+bin\Debug\ForExam.exe
+bin\Debug\ForExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ForExam.exe
+obj\Debug\ForExam.pdb

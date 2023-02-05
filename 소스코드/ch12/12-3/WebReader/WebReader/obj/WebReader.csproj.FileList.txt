@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WebReader.Form1.resources
+obj\Debug\WebReader.Properties.Resources.resources
+obj\Debug\WebReader.csproj.GenerateResource.Cache
+bin\Debug\WebReader.exe
+bin\Debug\WebReader.pdb
+obj\Debug\WebReader.exe
+obj\Debug\WebReader.pdb

@@ -1,0 +1,5 @@
+bin\Debug\ServerTimer.exe
+bin\Debug\ServerTimer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ServerTimer.exe
+obj\Debug\ServerTimer.pdb

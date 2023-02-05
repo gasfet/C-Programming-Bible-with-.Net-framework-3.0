@@ -1,0 +1,5 @@
+bin\Debug\FileExam4.exe
+bin\Debug\FileExam4.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FileExam4.exe
+obj\Debug\FileExam4.pdb

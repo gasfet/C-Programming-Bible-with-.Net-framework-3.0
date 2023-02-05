@@ -1,0 +1,5 @@
+bin\Debug\InheritanceExam1.exe
+bin\Debug\InheritanceExam1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\InheritanceExam1.exe
+obj\Debug\InheritanceExam1.pdb

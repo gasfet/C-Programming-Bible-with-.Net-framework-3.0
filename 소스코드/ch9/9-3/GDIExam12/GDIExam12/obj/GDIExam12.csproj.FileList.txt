@@ -1,0 +1,5 @@
+bin\Debug\GDIExam12.exe
+bin\Debug\GDIExam12.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GDIExam12.exe
+obj\Debug\GDIExam12.pdb

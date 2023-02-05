@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\MultiArray2.exe
+bin\Debug\MultiArray2.pdb
+obj\Debug\MultiArray2.exe
+obj\Debug\MultiArray2.pdb

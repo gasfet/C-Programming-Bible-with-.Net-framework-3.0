@@ -1,0 +1,5 @@
+bin\Debug\DataType2.exe
+bin\Debug\DataType2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataType2.exe
+obj\Debug\DataType2.pdb

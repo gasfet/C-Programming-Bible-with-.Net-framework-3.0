@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\NewWinForm8.exe
+bin\Debug\NewWinForm8.pdb
+obj\Debug\NewWinForm8.exe
+obj\Debug\NewWinForm8.pdb

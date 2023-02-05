@@ -1,0 +1,5 @@
+bin\Debug\NewWinForm3.exe
+bin\Debug\NewWinForm3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NewWinForm3.exe
+obj\Debug\NewWinForm3.pdb

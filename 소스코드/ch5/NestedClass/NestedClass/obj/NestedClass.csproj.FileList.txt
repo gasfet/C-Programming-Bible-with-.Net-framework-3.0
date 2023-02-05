@@ -1,0 +1,5 @@
+bin\Debug\NestedClass.exe
+bin\Debug\NestedClass.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NestedClass.exe
+obj\Debug\NestedClass.pdb

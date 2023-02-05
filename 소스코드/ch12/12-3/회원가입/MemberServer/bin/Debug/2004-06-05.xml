@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Member>
+    <id>a111</id>
+    <pwd>aaaaa</pwd>
+    <name>ㅁㅁㅁㅁ</name>
+    <nickname>aaaaa</nickname>
+    <ssn>760104-1468821</ssn>
+    <tel>01-111-1111    </tel>
+    <email>a@a.com</email>
+    <zipcode>143-903</zipcode>
+    <address>서울 광진구 중곡1동 221~241 ㅁㅁ</address>
+    <intro>ㅁㅁㅁㅁ</intro>
+  </Member>
+  <Member>
+    <id>aaab</id>
+    <pwd>a</pwd>
+    <name>a</name>
+    <nickname>a</nickname>
+    <ssn>a             </ssn>
+    <tel>a              </tel>
+    <email>a</email>
+    <address>a</address>
+    <intro>aa</intro>
+  </Member>
+  <Member>
+    <id>magicsoft</id>
+    <pwd>magicsoft</pwd>
+    <name>최재규</name>
+    <nickname>밝은미소1aa</nickname>
+    <ssn>760104-1468821</ssn>
+    <tel>010-4718-9161  </tel>
+    <email>magicsoft@empal.com</email>
+    <zipcode>144-325</zipcode>
+    <address>서울시 광진구 중곡동</address>
+    <intro>이 프로그램 만든이~</intro>
+  </Member>
+  <Connect>
+    <id>magicsoft</id>
+    <ip>222.222.222.111</ip>
+    <state>1</state>
+  </Connect>
+</NewDataSet>

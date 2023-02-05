@@ -1,0 +1,8 @@
+bin\Debug\WebApplication.exe
+bin\Debug\WebApplication.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WebApplication.Form1.resources
+obj\Debug\WebApplication.Properties.Resources.resources
+obj\Debug\WebApplication.csproj.GenerateResource.Cache
+obj\Debug\WebApplication.exe
+obj\Debug\WebApplication.pdb

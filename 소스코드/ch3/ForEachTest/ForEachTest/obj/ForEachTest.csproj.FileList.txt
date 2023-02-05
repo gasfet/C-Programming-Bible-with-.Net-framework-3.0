@@ -1,0 +1,5 @@
+bin\Debug\ForEachTest.exe
+bin\Debug\ForEachTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ForEachTest.exe
+obj\Debug\ForEachTest.pdb

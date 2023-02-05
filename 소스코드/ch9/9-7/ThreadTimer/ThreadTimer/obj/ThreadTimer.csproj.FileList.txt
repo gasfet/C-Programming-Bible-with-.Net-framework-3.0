@@ -1,0 +1,5 @@
+bin\Debug\ThreadTimer.exe
+bin\Debug\ThreadTimer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ThreadTimer.exe
+obj\Debug\ThreadTimer.pdb

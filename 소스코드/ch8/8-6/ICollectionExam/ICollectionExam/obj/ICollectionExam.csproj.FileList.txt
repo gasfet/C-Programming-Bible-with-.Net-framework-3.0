@@ -1,0 +1,5 @@
+bin\Debug\ICollectionExam.exe
+bin\Debug\ICollectionExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ICollectionExam.exe
+obj\Debug\ICollectionExam.pdb

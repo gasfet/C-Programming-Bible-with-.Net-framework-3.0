@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\TransferSerialExample.exe
+bin\Debug\TransferSerialExample.pdb
+bin\Debug\SerialExample.dll
+obj\Debug\TransferSerialExample.exe
+obj\Debug\TransferSerialExample.pdb

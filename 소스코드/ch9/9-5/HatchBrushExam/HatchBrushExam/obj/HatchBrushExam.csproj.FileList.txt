@@ -1,0 +1,5 @@
+bin\Debug\HatchBrushExam.exe
+bin\Debug\HatchBrushExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HatchBrushExam.exe
+obj\Debug\HatchBrushExam.pdb

@@ -1,0 +1,5 @@
+bin\Debug\LinearGradientBrushExam.exe
+bin\Debug\LinearGradientBrushExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LinearGradientBrushExam.exe
+obj\Debug\LinearGradientBrushExam.pdb

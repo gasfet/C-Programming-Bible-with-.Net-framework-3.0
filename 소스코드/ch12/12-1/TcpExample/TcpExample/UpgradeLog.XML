@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TcpExample">
+</Property><Property Name="솔루션 파일" Value="E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\TcpExample.sln">
+</Property><Property Name="사용자 옵션 파일" Value="E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\TcpExample.suo">
+</Property><Property Name="Date" Value="2006년 7월 23일 일요일">
+</Property><Property Name="Time" Value="오후 19:52">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TcpExample.sln" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="TcpExample.suo" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\TcpExample.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample\TcpExample.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\TcpExample.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample\TcpExample.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\Class1.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample\Class1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpExample\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\TcpExample.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="TcpExample" Source="TcpExample\TcpExample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\TcpClientExample.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpClientExample\TcpClientExample.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\TcpClientExample.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpClientExample\TcpClientExample.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpClientExample\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\Class1.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpClientExample\Class1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\TcpExample\TcpExample\Backup\TcpClientExample\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\TcpClientExample.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="TcpClientExample" Source="TcpClientExample\TcpClientExample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TcpExample.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="TcpExample.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TcpExample" Source="TcpExample\TcpExample.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event><Event ErrorLevel="0" Project="TcpClientExample" Source="TcpClientExample\TcpClientExample.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SMTP_Exam.MainWnd.resources
+obj\Debug\SMTP_Exam.Properties.Resources.resources
+obj\Debug\SMTP_Exam.csproj.GenerateResource.Cache
+bin\Debug\SMTP_Exam.exe
+bin\Debug\SMTP_Exam.pdb
+obj\Debug\SMTP_Exam.exe
+obj\Debug\SMTP_Exam.pdb

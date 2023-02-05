@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippingExam2", "ClippingExam2\ClippingExam2.csproj", "{CF943A93-0C17-4BD1-8791-7E1D7B8CA880}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF943A93-0C17-4BD1-8791-7E1D7B8CA880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF943A93-0C17-4BD1-8791-7E1D7B8CA880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF943A93-0C17-4BD1-8791-7E1D7B8CA880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF943A93-0C17-4BD1-8791-7E1D7B8CA880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

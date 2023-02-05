@@ -1,0 +1,5 @@
+bin\Debug\XmlDTDWrite.exe
+bin\Debug\XmlDTDWrite.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XmlDTDWrite.exe
+obj\Debug\XmlDTDWrite.pdb

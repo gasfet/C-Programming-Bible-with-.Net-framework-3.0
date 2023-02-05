@@ -1,0 +1,5 @@
+bin\Debug\ClippingExam3.exe
+bin\Debug\ClippingExam3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ClippingExam3.exe
+obj\Debug\ClippingExam3.pdb

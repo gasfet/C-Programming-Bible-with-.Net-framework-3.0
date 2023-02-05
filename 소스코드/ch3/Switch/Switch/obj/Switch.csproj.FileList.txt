@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Switch.exe
+bin\Debug\Switch.pdb
+obj\Debug\Switch.exe
+obj\Debug\Switch.pdb

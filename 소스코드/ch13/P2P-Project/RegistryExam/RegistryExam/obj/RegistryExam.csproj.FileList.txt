@@ -1,0 +1,5 @@
+bin\Debug\RegistryExam.exe
+bin\Debug\RegistryExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RegistryExam.exe
+obj\Debug\RegistryExam.pdb

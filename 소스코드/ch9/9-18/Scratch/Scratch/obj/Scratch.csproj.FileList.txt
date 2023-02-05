@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Scratch.MainWnd.resources
+obj\Debug\Scratch.Properties.Resources.resources
+obj\Debug\Scratch.csproj.GenerateResource.Cache
+bin\Debug\Scratch.exe
+bin\Debug\Scratch.pdb
+obj\Debug\Scratch.exe
+obj\Debug\Scratch.pdb

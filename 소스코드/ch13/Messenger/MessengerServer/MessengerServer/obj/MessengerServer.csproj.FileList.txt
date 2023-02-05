@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MessengerServer.EditMember.resources
+obj\Debug\MessengerServer.FriendManager.resources
+obj\Debug\MessengerServer.GroupManager.resources
+obj\Debug\MessengerServer.InsertMember.resources
+obj\Debug\MessengerServer.MainWnd.resources
+obj\Debug\MessengerServer.Properties.Resources.resources
+obj\Debug\MessengerServer.ZipcodeWnd.resources
+obj\Debug\MessengerServer.csproj.GenerateResource.Cache
+bin\Debug\MessengerServer.exe
+bin\Debug\MessengerServer.pdb
+obj\Debug\MessengerServer.exe
+obj\Debug\MessengerServer.pdb

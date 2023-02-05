@@ -1,0 +1,5 @@
+bin\Debug\DownloadDataExam.exe
+bin\Debug\DownloadDataExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DownloadDataExam.exe
+obj\Debug\DownloadDataExam.pdb

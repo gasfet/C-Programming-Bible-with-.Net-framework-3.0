@@ -1,0 +1,5 @@
+bin\Debug\SizeOf.exe
+bin\Debug\SizeOf.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SizeOf.exe
+obj\Debug\SizeOf.pdb

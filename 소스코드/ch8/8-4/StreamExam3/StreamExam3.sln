@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamExam3", "StreamExam3\StreamExam3.csproj", "{D890BAC5-59B9-45FD-BE6A-E7419FD8012B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D890BAC5-59B9-45FD-BE6A-E7419FD8012B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D890BAC5-59B9-45FD-BE6A-E7419FD8012B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D890BAC5-59B9-45FD-BE6A-E7419FD8012B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D890BAC5-59B9-45FD-BE6A-E7419FD8012B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

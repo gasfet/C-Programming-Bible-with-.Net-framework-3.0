@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<!DOCTYPE songdata SYSTEM "song.dtd">
+<!-- songdata list -->
+<songdata>
+  <song genre="ballade">
+    <title>아름다운세상</title>
+    <singer>박학기</singer>
+    <year>1990</year>
+  </song>
+  <song1 genre="rock">
+    <title>슈퍼스타</title>
+    <singer>러브홀릭</singer>
+    <year>2003</year>
+  </song>
+</songdata>

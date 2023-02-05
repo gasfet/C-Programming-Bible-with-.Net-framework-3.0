@@ -1,0 +1,5 @@
+bin\Debug\StaticExam.exe
+bin\Debug\StaticExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StaticExam.exe
+obj\Debug\StaticExam.pdb

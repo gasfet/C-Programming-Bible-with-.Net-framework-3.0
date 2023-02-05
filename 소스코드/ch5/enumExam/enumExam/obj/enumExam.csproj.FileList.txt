@@ -1,0 +1,5 @@
+bin\Debug\enumExam.exe
+bin\Debug\enumExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\enumExam.exe
+obj\Debug\enumExam.pdb

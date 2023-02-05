@@ -1,0 +1,6 @@
+<!ELEMENT songdata (song)*>
+<!ELEMENT song (title, singer, year)>
+<!ATTLIST song genre CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT year (#PCDATA)>

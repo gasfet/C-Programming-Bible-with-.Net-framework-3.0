@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MyPlayer">
+</Property><Property Name="솔루션 파일" Value="E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\MyPlayer.sln">
+</Property><Property Name="사용자 옵션 파일" Value="E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\MyPlayer.suo">
+</Property><Property Name="Date" Value="2006년 9월 7일 목요일">
+</Property><Property Name="Time" Value="오후 21:40">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MyPlayer.sln" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\MyPlayer.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="MyPlayer.suo" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\MyPlayer.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="MyPlayer.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\MyPlayer.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="MyPlayer.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\MyPlayer.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="frmList.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\frmList.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="frmMain.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\frmMain.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="frmList.resx" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\frmList.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="frmMain.resx" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-1 MP3 플레이어\Backup\frmMain.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="MyPlayer.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="MyPlayer" Source="MyPlayer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MyPlayer.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="MyPlayer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MyPlayer" Source="MyPlayer.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MultiChatClient.emoticons.bmp
+obj\Debug\MultiChatClient.Properties.Resources.resources
+obj\Debug\MultiChatClient.MainWnd.resources
+obj\Debug\MultiChatClient.csproj.GenerateResource.Cache
+obj\Debug\MultiChatClient.EmoticonWnd.resources
+bin\Debug\MultiChatClient.exe
+bin\Debug\MultiChatClient.pdb
+obj\Debug\MultiChatClient.exe
+obj\Debug\MultiChatClient.pdb

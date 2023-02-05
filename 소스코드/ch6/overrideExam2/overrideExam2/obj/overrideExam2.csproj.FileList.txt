@@ -1,0 +1,5 @@
+bin\Debug\overrideExam2.exe
+bin\Debug\overrideExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\overrideExam2.exe
+obj\Debug\overrideExam2.pdb

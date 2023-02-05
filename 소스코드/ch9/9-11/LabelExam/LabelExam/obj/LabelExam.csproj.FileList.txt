@@ -1,0 +1,5 @@
+bin\Debug\LabelExam.exe
+bin\Debug\LabelExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LabelExam.exe
+obj\Debug\LabelExam.pdb

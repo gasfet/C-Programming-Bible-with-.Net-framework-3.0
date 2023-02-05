@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Char.exe
+bin\Debug\Char.pdb
+obj\Debug\Char.exe
+obj\Debug\Char.pdb

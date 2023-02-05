@@ -1,0 +1,5 @@
+bin\Debug\One_Step.exe
+bin\Debug\One_Step.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\One_Step.exe
+obj\Debug\One_Step.pdb

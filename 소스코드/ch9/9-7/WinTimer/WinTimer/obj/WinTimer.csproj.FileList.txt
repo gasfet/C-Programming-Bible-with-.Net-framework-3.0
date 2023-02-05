@@ -1,0 +1,5 @@
+bin\Debug\WinTimer.exe
+bin\Debug\WinTimer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinTimer.exe
+obj\Debug\WinTimer.pdb

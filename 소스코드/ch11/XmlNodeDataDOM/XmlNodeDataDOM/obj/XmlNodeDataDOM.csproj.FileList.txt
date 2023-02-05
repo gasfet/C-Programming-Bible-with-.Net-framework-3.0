@@ -1,0 +1,5 @@
+bin\Debug\XmlNodeDataDOM.exe
+bin\Debug\XmlNodeDataDOM.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XmlNodeDataDOM.exe
+obj\Debug\XmlNodeDataDOM.pdb

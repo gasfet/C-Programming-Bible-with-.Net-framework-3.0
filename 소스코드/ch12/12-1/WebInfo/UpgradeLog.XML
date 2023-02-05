@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WebInfo">
+</Property><Property Name="솔루션 파일" Value="E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\WebInfo.sln">
+</Property><Property Name="사용자 옵션 파일" Value="E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\WebInfo.suo">
+</Property><Property Name="Date" Value="2006년 7월 23일 일요일">
+</Property><Property Name="Time" Value="오후 22:45">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WebInfo.sln" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\WebInfo.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="WebInfo.suo" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\WebInfo.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="WebInfo.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\WebInfo.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="WebInfo.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\WebInfo.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="Form1.cs" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\Form1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="Form1.resx" Description="파일을 E:\C#Bible2006\소스코드\ch13\13-1\WebInfo\Backup\Form1.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="WebInfo.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="WebInfo" Source="WebInfo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WebInfo.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="WebInfo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WebInfo" Source="WebInfo.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

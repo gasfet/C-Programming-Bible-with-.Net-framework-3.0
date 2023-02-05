@@ -1,0 +1,5 @@
+bin\Debug\SolidBrushExam.exe
+bin\Debug\SolidBrushExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SolidBrushExam.exe
+obj\Debug\SolidBrushExam.pdb

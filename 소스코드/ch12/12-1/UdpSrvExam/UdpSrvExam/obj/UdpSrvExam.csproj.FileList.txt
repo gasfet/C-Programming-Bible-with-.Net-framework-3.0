@@ -1,0 +1,5 @@
+bin\Debug\UdpSrvExam.exe
+bin\Debug\UdpSrvExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UdpSrvExam.exe
+obj\Debug\UdpSrvExam.pdb

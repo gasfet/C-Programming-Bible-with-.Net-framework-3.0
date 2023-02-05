@@ -1,0 +1,5 @@
+bin\Debug\XmlDocumentWriteExam.exe
+bin\Debug\XmlDocumentWriteExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XmlDocumentWriteExam.exe
+obj\Debug\XmlDocumentWriteExam.pdb

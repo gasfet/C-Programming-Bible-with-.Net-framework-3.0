@@ -1,0 +1,5 @@
+bin\Debug\IfelseIf.exe
+bin\Debug\IfelseIf.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\IfelseIf.exe
+obj\Debug\IfelseIf.pdb

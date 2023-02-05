@@ -1,0 +1,5 @@
+bin\Debug\Arithmetic3.exe
+bin\Debug\Arithmetic3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Arithmetic3.exe
+obj\Debug\Arithmetic3.pdb

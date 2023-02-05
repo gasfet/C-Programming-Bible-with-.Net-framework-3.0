@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<TBL_Option>
+  <TBL_Option>
+    <login_auto>True</login_auto>
+    <login_id>korea</login_id>
+    <login_pwd>magic</login_pwd>
+    <path_file>c:\</path_file>
+    <notify_show>500</notify_show>
+    <notify_stay>3000</notify_stay>
+    <notify_hide>500</notify_hide>
+    <option_style>True</option_style>
+    <cryptograph>True</cryptograph>
+  </TBL_Option>
+</TBL_Option>

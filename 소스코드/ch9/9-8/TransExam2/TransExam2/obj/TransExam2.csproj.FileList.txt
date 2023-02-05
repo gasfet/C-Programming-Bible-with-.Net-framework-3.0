@@ -1,0 +1,5 @@
+bin\Debug\TransExam2.exe
+bin\Debug\TransExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TransExam2.exe
+obj\Debug\TransExam2.pdb

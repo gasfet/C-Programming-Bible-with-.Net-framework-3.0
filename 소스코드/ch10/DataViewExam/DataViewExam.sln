@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewExam", "DataViewExam\DataViewExam.csproj", "{68E24112-8205-401A-8B07-E4A9F2F8FF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E24112-8205-401A-8B07-E4A9F2F8FF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E24112-8205-401A-8B07-E4A9F2F8FF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E24112-8205-401A-8B07-E4A9F2F8FF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E24112-8205-401A-8B07-E4A9F2F8FF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

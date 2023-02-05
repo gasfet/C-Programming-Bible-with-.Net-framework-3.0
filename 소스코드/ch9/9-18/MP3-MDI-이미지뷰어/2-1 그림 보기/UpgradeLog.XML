@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ImgViewer">
+</Property><Property Name="솔루션 파일" Value="E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\ImgViewer.sln">
+</Property><Property Name="사용자 옵션 파일" Value="E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\ImgViewer.suo">
+</Property><Property Name="Date" Value="2006년 9월 10일 일요일">
+</Property><Property Name="Time" Value="오후 13:39">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ImgViewer.sln" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\ImgViewer.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="ImgViewer.suo" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\ImgViewer.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="ImgViewer.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\ImgViewer.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="ImgViewer.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\ImgViewer.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="frmSelect.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\frmSelect.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="frmViewer.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\frmViewer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="frmSelect.resx" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\frmSelect.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="frmViewer.resx" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\2-1 그림 보기\Backup\frmViewer.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="ImgViewer.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="ImgViewer" Source="ImgViewer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ImgViewer.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="ImgViewer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="ImgViewer.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

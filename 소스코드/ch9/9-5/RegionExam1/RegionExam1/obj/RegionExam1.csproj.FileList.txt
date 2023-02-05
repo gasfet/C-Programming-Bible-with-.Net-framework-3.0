@@ -1,0 +1,5 @@
+bin\Debug\RegionExam1.exe
+bin\Debug\RegionExam1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RegionExam1.exe
+obj\Debug\RegionExam1.pdb

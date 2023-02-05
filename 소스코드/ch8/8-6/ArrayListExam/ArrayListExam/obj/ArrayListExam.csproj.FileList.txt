@@ -1,0 +1,5 @@
+bin\Debug\ArrayListExam.exe
+bin\Debug\ArrayListExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ArrayListExam.exe
+obj\Debug\ArrayListExam.pdb

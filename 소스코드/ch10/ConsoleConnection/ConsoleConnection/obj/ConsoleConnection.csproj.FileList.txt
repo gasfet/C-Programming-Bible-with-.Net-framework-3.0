@@ -1,0 +1,5 @@
+bin\Debug\ConsoleConnection.exe
+bin\Debug\ConsoleConnection.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ConsoleConnection.exe
+obj\Debug\ConsoleConnection.pdb

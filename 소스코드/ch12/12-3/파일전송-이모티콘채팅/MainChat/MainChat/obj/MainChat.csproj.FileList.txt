@@ -1,0 +1,12 @@
+bin\Debug\MainChat.exe
+bin\Debug\MainChat.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MainChat.Properties.Resources.resources
+obj\Debug\MainChat.csproj.GenerateResource.Cache
+obj\Debug\MainChat.exe
+obj\Debug\MainChat.pdb
+obj\Debug\MainChat.emoticons.bmp
+obj\Debug\MainChat.EmoticonWnd.resources
+obj\Debug\MainChat.MainWnd.resources
+bin\Debug\MainChat.exe.CodeAnalysisLog.xml
+bin\Debug\MainChat.exe.lastcodeanalysissucceeded

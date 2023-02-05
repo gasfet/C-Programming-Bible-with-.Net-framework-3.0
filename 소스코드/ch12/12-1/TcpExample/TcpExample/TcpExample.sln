@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpExample", "TcpExample\TcpExample.csproj", "{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClientExample", "TcpClientExample\TcpClientExample.csproj", "{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

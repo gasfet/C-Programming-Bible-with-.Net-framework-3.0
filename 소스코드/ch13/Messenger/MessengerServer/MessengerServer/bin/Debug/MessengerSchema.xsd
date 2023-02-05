@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="ko-KR">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBL_Member">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="pwd" type="xs:string" minOccurs="0" />
+              <xs:element name="name" type="xs:string" minOccurs="0" />
+              <xs:element name="nickname" type="xs:string" minOccurs="0" />
+              <xs:element name="ssn" type="xs:string" minOccurs="0" />
+              <xs:element name="tel" type="xs:string" minOccurs="0" />
+              <xs:element name="email" type="xs:string" minOccurs="0" />
+              <xs:element name="zipcode" type="xs:string" minOccurs="0" />
+              <xs:element name="address" type="xs:string" minOccurs="0" />
+              <xs:element name="intro" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TBL_Friend">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="friend_id" type="xs:string" minOccurs="0" />
+              <xs:element name="group_id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TBL_Group">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="group_id" type="xs:int" minOccurs="0" />
+              <xs:element name="group_name" type="xs:string" minOccurs="0" />
+              <xs:element name="user_id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TBL_Connect">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="ip" type="xs:string" minOccurs="0" />
+              <xs:element name="state" type="xs:string" minOccurs="0" />
+              <xs:element name="entertime" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

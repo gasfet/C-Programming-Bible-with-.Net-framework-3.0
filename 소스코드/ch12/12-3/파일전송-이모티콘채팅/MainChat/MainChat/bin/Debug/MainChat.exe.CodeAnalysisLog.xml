@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 8\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.Xsl"?>
+<FxCopReport Version="8">
+ <Targets>
+  <Target Name="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat\bin\Debug\MainChat.exe">
+   <Modules>
+    <Module Name="mainchat.exe">
+     <Messages>
+      <Message TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+       <Issue Certainty="95" Level="CriticalError">'MainChat' 어셈블리에 잘못된 권한 요청이 있습니다. SecurityAction.RequestMinimum을 사용하여 항상 최소 보안 권한을 지정해야 합니다.</Issue>
+      </Message>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">강력한 이름의 키로 'MainChat'을(를) 서명하십시오.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+       <Issue Name="NoAttr" Certainty="95" Level="Error">'MainChat'은(는) CLSCompliantAttribute로 표시되어야 하며 해당 값은 true여야 합니다.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="MainChat">
+       <Types>
+        <Type Name="EmoticonWnd" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name=".ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Drawing.Bitmap 형식의 bitmap 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 bitmap_height 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 bitmap_width 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 columns 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Windows.Forms.ImageList 형식의 imageList 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 item_height 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 item_width 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 MainChat.EmoticonWndEventHandler 형식의 ItemClick 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Boolean 형식의 mousedown 필드를 false(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 rows 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 space_H 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Int32 형식의 space_V 필드를 0(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.designer.cs" Line="8">EmoticonWnd.EmoticonWnd()에서 System.Windows.Forms.ToolTip 형식의 tooltip 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="bitmap" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'bitmap'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="bitmap_height" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'bitmap_height'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'bitmap_height' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="bitmap_width" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'bitmap_width'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'bitmap_width' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="columns" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'columns'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="coord_X" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'coord_X'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'coord_X' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="coord_Y" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'coord_Y'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'coord_Y' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ItemClick" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Second" Certainty="95" Level="Error">'EmoticonWndEventHandler'의 두 번째 매개 변수를 이름이 'e'인 EventArgs, 즉 EventArgs를 확장하는 형식의 인스턴스로 선언하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="imageList" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'imageList'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Init(System.Windows.Forms.ImageList,System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1#" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">'space_H' 매개 변수에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+            <Message Id="2#" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">'space_V' 매개 변수에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+            <Message TypeName="ValidateArgumentsOfPublicMethods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="77">외부에 표시되는 메서드 EmoticonWnd.Init(ImageList, Int32, Int32, Int32, Int32):Boolean에 전달되는 'imageList' 매개 변수의 유효성을 검사하십시오.</Issue>
+            </Message>
+            <Message Id="columns" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">EmoticonWnd.Init(ImageList, Int32, Int32, Int32, Int32):Boolean에 선언된 매개 변수 'columns'에 형식의 인스턴스 필드와 같은 이름이 있습니다. 해당 항목 중 하나의 이름을 변경하십시오.</Issue>
+            </Message>
+            <Message Id="imageList" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">EmoticonWnd.Init(ImageList, Int32, Int32, Int32, Int32):Boolean에 선언된 매개 변수 'imageList'에 형식의 인스턴스 필드와 같은 이름이 있습니다. 해당 항목 중 하나의 이름을 변경하십시오.</Issue>
+            </Message>
+            <Message Id="rows" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">EmoticonWnd.Init(ImageList, Int32, Int32, Int32, Int32):Boolean에 선언된 매개 변수 'rows'에 형식의 인스턴스 필드와 같은 이름이 있습니다. 해당 항목 중 하나의 이름을 변경하십시오.</Issue>
+            </Message>
+            <Message Id="space_H" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">EmoticonWnd.Init(ImageList, Int32, Int32, Int32, Int32):Boolean에 선언된 매개 변수 'space_H'에 형식의 인스턴스 필드와 같은 이름이 있습니다. 해당 항목 중 하나의 이름을 변경하십시오.</Issue>
+            </Message>
+            <Message Id="space_V" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="70">EmoticonWnd.Init(ImageList, Int32, Int32, Int32, Int32):Boolean에 선언된 매개 변수 'space_V'에 형식의 인스턴스 필드와 같은 이름이 있습니다. 해당 항목 중 하나의 이름을 변경하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="item_height" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'item_height'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'item_height' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="item_width" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'item_width'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'item_width' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="mousedown" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'mousedown'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnDeactivate(System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="118">Form.OnDeactivate(EventArgs):Void에 선언된 식별자와 일치하도록 EmoticonWnd.OnDeactivate(EventArgs):Void 메서드의 매개 변수 이름 'ea'을(를) 'e'(으)로 변경하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnMouseDown(System.Windows.Forms.MouseEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="202">Control.OnMouseDown(MouseEventArgs):Void에 선언된 식별자와 일치하도록 EmoticonWnd.OnMouseDown(MouseEventArgs):Void 메서드의 매개 변수 이름 'mea'을(를) 'e'(으)로 변경하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnMouseMove(System.Windows.Forms.MouseEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="188">'System.Object'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'EmoticonWnd.OnMouseMove(MouseEventArgs):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="166">Control.OnMouseMove(MouseEventArgs):Void에 선언된 식별자와 일치하도록 EmoticonWnd.OnMouseMove(MouseEventArgs):Void 메서드의 매개 변수 이름 'mea'을(를) 'e'(으)로 변경하십시오.</Issue>
+            </Message>
+            <Message Id="dde" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="166">EmoticonWnd.OnMouseMove(MouseEventArgs):Void에서 System.Windows.Forms.DragDropEffects 형식의 로컬 항목 'dde'을(를) 선언하는데 이 항목은 사용되지 않거나 단지 할당만 되어 있습니다. 이 로컬 항목을 사용하거나 제거하십시오.</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="173">EmoticonWnd.OnMouseMove(MouseEventArgs):Void이(가) IFormatProvider를 명시적으로 제공하지 않는 System.Int32.ToString을(를) 호출을 합니다. System.Int32.ToString(System.IFormatProvider)을(를) 호출하도록 바꿔야 합니다.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnMouseUp(System.Windows.Forms.MouseEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="209">Control.OnMouseUp(MouseEventArgs):Void에 선언된 식별자와 일치하도록 EmoticonWnd.OnMouseUp(MouseEventArgs):Void 메서드의 매개 변수 이름 'mea'을(를) 'e'(으)로 변경하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnPaintBackground(System.Windows.Forms.PaintEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="EmoticonWnd.cs" Line="123">Control.OnPaintBackground(PaintEventArgs):Void에 선언된 식별자와 일치하도록 EmoticonWnd.OnPaintBackground(PaintEventArgs):Void 메서드의 매개 변수 이름 'pea'을(를) 'pevent'(으)로 변경하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="rows" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'rows'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="space_H" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'space_H'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'space_H' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="space_V" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'space_V'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'space_V' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="tooltip" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'tooltip'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="tooltip_str" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="Member" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="25" Level="Warning">'tooltip_str'은(는) 다차원 배열입니다. 가능하면 이 배열을 가변 배열로 바꾸십시오. 가변 배열은 CLS 규격이 아닙니다.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EmoticonWndEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="SelectedItem" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'SelectedItem'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EmoticonWndEventHandler" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="UseGenericEventHandlerInstances" Category="Microsoft.Design" CheckId="CA1003" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">'MainChat.EmoticonWndEventHandler'을(를) 제거하고 EventHandler&lt;T&gt;로 바꿔 사용하십시오.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FileTransfer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="CriticalError">'MainChat.FileTransfer'은(는) 다음 IDisposable 형식 System.Net.Sockets.Socket의 멤버를 인스턴스화하므로 IDisposable을 구현하십시오.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name=".ctor(MainChat.MainWnd)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="16">FileTransfer.FileTransfer(MainWnd)에서 System.Net.Sockets.Socket 형식의 client 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="16">FileTransfer.FileTransfer(MainWnd)에서 System.String 형식의 client_ip 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="16">FileTransfer.FileTransfer(MainWnd)에서 System.IO.FileInfo 형식의 file_info 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="16">FileTransfer.FileTransfer(MainWnd)에서 System.Net.Sockets.Socket 형식의 server 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="16">FileTransfer.FileTransfer(MainWnd)에서 System.Threading.Thread 형식의 th 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="16">FileTransfer.FileTransfer(MainWnd)에서 MainChat.MainWnd 형식의 wnd 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Connect(System.String):System.Boolean" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="117">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.Connect(String):Boolean'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="DisConnect():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="143">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.DisConnect():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="file_info" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">'file_info'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">'file_info' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="FileInfo(System.String,System.Int64):System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="421">FileTransfer.FileInfo(String, Int64):Void은(는) 리터럴을 MessageBox.Show(String, String, MessageBoxButtons, MessageBoxIcon):DialogResult에 대한 호출의 2 매개 변수로 전달합니다. '파일 전송 확인' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+            <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="425">FileTransfer.FileInfo(String, Int64):Void이(가) IFormatProvider를 명시적으로 제공하지 않는 System.Int64.ToString을(를) 호출을 합니다. System.Int64.ToString(System.IFormatProvider)을(를) 호출하도록 바꿔야 합니다.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="421">FileTransfer.FileInfo(String, Int64):Void을(를) 변경하여 MessageBoxOptions를 지정하는 MessageBox.Show 오버로드를 호출하고, 부모 컨트롤에서 RightToLeft가 RightToLeft.Yes로 설정되어 있는 경우 MessageBoxOptions.RightAlign 및 MessageBoxOptions.RtlReading을 설정하십시오. RightToLeft.Inherit가 설정되어 있는 경우에는 Yes 또는 No를 나타내는 값을 찾을 때까지 부모 컨트롤을 확인하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Receive():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="182">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.Receive():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt64(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="167">FileTransfer.Receive():Void이(가) IFormatProvider를 명시적으로 제공하지 않는 System.Convert.ToInt64(System.String)을(를) 호출을 합니다. System.Convert.ToInt64(System.String,System.IFormatProvider)을(를) 호출하도록 바꿔야 합니다.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="171">FileTransfer.Receive():Void이(가) IFormatProvider를 명시적으로 제공하지 않는 System.Convert.ToInt64(System.String)을(를) 호출을 합니다. System.Convert.ToInt64(System.String,System.IFormatProvider)을(를) 호출하도록 바꿔야 합니다.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ReceiveData():System.Byte[]" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="262">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.ReceiveData():Byte[]'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ReceiveFileData(System.IO.FileStream,System.Int64,System.Int64):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DisposeObjectsBeforeLosingScope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="404">FileTransfer.ReceiveFileData(FileStream, Int64, Int64):Void을(를) 수정하여 모든 코드 경로에 대한 'BinaryWriter' 형식의 로컬 'bw'을(를) 삭제하십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="403">FileTransfer.ReceiveFileData(FileStream, Int64, Int64):Void을(를) 수정하여 모든 코드 경로에 대한 'BinaryWriter' 형식의 로컬 'bw'을(를) 삭제하십시오.</Issue>
+            </Message>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="396">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.ReceiveFileData(FileStream, Int64, Int64):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="SendData(System.Byte[]):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="225">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.SendData(Byte[]):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="SendFileData(System.IO.FileInfo,System.Int64):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DisposeObjectsBeforeLosingScope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="337">FileTransfer.SendFileData(FileInfo, Int64):Void을(를) 수정하여 모든 코드 경로에 대한 'BinaryReader' 형식의 로컬 'br'을(를) 삭제하십시오.</Issue>
+            </Message>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="328">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.SendFileData(FileInfo, Int64):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ServerStart():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="58">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.ServerStart():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ServerStop():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="FileTransfer.cs" Line="86">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'FileTransfer.ServerStop():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainWnd" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name=".ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 MainChat.EmoticonWnd 형식의 emo_wnd 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 System.Threading.Thread 형식의 file_server_th 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 MainChat.FileTransfer 형식의 ft 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 System.Windows.Forms.ImageList 형식의 imageList 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 System.String 형식의 my_ip 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 MainChat.Network 형식의 net 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 System.Boolean 형식의 newtxtsend 필드를 false(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="11">MainWnd.MainWnd()에서 System.Threading.Thread 형식의 server_th 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Add_MSG(System.String):System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="72">'System.Object'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'MainWnd.Add_MSG(String):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="57">'Add_MSG' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="57">멤버 이름 'MainWnd.Add_MSG(String):Void'의 대문자 표시를 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Add_RichData(System.String):System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="97">'System.Object'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'MainWnd.Add_RichData(String):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="80">'Add_RichData' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Add_Status(System.String):System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="116">'System.Object'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'MainWnd.Add_Status(String):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="103">'Add_Status' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btn_Connect_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="234">MainWnd.btn_Connect_Click(Object, EventArgs):Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '서버 연결' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="227">MainWnd.btn_Connect_Click(Object, EventArgs):Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '접속중...' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="222">MainWnd.btn_Connect_Click(Object, EventArgs):Void은(는) 리터럴을 MessageBox.Show(String):DialogResult에 대한 호출의 1 매개 변수로 전달합니다. '서버 아이피 주소가 틀리거나&#xD;&#xA; 서버가 작동중이지 않습니다.' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="216">MainWnd.btn_Connect_Click(Object, EventArgs):Void은(는) 리터럴을 MessageBox.Show(String):DialogResult에 대한 호출의 1 매개 변수로 전달합니다. '아이피 번호를 입력하세요!' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="216">MainWnd.btn_Connect_Click(Object, EventArgs):Void을(를) 변경하여 MessageBoxOptions를 지정하는 MessageBox.Show 오버로드를 호출하고, 부모 컨트롤에서 RightToLeft가 RightToLeft.Yes로 설정되어 있는 경우 MessageBoxOptions.RightAlign 및 MessageBoxOptions.RtlReading을 설정하십시오. RightToLeft.Inherit가 설정되어 있는 경우에는 Yes 또는 No를 나타내는 값을 찾을 때까지 부모 컨트롤을 확인하십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="222">MainWnd.btn_Connect_Click(Object, EventArgs):Void을(를) 변경하여 MessageBoxOptions를 지정하는 MessageBox.Show 오버로드를 호출하고, 부모 컨트롤에서 RightToLeft가 RightToLeft.Yes로 설정되어 있는 경우 MessageBoxOptions.RightAlign 및 MessageBoxOptions.RtlReading을 설정하십시오. RightToLeft.Inherit가 설정되어 있는 경우에는 Yes 또는 No를 나타내는 값을 찾을 때까지 부모 컨트롤을 확인하십시오.</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="214">'MainWnd.btn_Connect_Click(Object, EventArgs):Void'의 String.op_Equality("")에 대한 호출을 String.IsNullOrEmpty에 대한 호출로 바꾸십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btn_FileSend_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="264">MainWnd.btn_FileSend_Click(Object, EventArgs):Void이(가) IFormatProvider를 명시적으로 제공하지 않는 System.Int64.ToString을(를) 호출을 합니다. System.Int64.ToString(System.IFormatProvider)을(를) 호출하도록 바꿔야 합니다.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btn_Server_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="202">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'MainWnd.btn_Server_Click(Object, EventArgs):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="190">MainWnd.btn_Server_Click(Object, EventArgs):Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '서버 멈춤' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="199">MainWnd.btn_Server_Click(Object, EventArgs):Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '서버 시작' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="InitializeComponent():System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="92">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="82">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="117">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '7000' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="133">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '서버 시작' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="162">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '서버 연결' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="125">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '서버아이피' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="154">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '옵션' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="71">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '이모티콘' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="61">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '파일전송' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="180">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '파일전송&amp;이모티콘 채팅' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.Designer.cs" Line="108">MainWnd.InitializeComponent():Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '폰트' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="MainWnd_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="172">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'MainWnd.MainWnd_FormClosed(Object, FormClosedEventArgs):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="174">MainWnd.MainWnd_FormClosed(Object, FormClosedEventArgs):Void을(를) 변경하여 MessageBoxOptions를 지정하는 MessageBox.Show 오버로드를 호출하고, 부모 컨트롤에서 RightToLeft가 RightToLeft.Yes로 설정되어 있는 경우 MessageBoxOptions.RightAlign 및 MessageBoxOptions.RtlReading을 설정하십시오. RightToLeft.Inherit가 설정되어 있는 경우에는 Yes 또는 No를 나타내는 값을 찾을 때까지 부모 컨트롤을 확인하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnItemClicked(System.Object,MainChat.EmoticonWndEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="301">MainWnd.OnItemClicked(Object, EmoticonWndEventArgs):Void은(는) 리터럴을 MessageBox.Show(String):DialogResult에 대한 호출의 1 매개 변수로 전달합니다. '이모티콘 붙여넣기가 실패했습니다.!' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="301">MainWnd.OnItemClicked(Object, EmoticonWndEventArgs):Void을(를) 변경하여 MessageBoxOptions를 지정하는 MessageBox.Show 오버로드를 호출하고, 부모 컨트롤에서 RightToLeft가 RightToLeft.Yes로 설정되어 있는 경우 MessageBoxOptions.RightAlign 및 MessageBoxOptions.RtlReading을 설정하십시오. RightToLeft.Inherit가 설정되어 있는 경우에는 Yes 또는 No를 나타내는 값을 찾을 때까지 부모 컨트롤을 확인하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ProgressBarSetData(System.Double,System.Int64):System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="140">'System.Object'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'MainWnd.ProgressBarSetData(Double, Int64):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="1#" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="127">'total_size' 매개 변수에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="txt_Input_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="MainWnd.cs" Line="322">MainWnd.txt_Input_KeyDown(Object, KeyEventArgs):Void은(는) 리터럴을 Control.set_Text(String):Void에 대한 호출의 1 매개 변수로 전달합니다. '' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Network" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="CriticalError">'MainChat.Network'은(는) 다음 IDisposable 형식 System.Net.Sockets.Socket의 멤버를 인스턴스화하므로 IDisposable을 구현하십시오.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name=".ctor(MainChat.MainWnd)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="16">Network.Network(MainWnd)에서 System.Net.Sockets.Socket 형식의 client 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="16">Network.Network(MainWnd)에서 System.String 형식의 client_ip 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="16">Network.Network(MainWnd)에서 System.Net.Sockets.Socket 형식의 server 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="16">Network.Network(MainWnd)에서 System.Threading.Thread 형식의 th 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="16">Network.Network(MainWnd)에서 MainChat.MainWnd 형식의 wnd 필드를 null(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Connect(System.String,System.String):System.Boolean" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="114">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.Connect(String, String):Boolean'을(를) 수정하십시오.</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="99">Network.Connect(String, String):Boolean이(가) IFormatProvider를 명시적으로 제공하지 않는 System.Convert.ToInt32(System.String)을(를) 호출을 합니다. System.Convert.ToInt32(System.String,System.IFormatProvider)을(를) 호출하도록 바꿔야 합니다.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="DisConnect():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="140">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.DisConnect():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Get_MyIP():System.String" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="285">'Get_MyIP' 멤버에서 모든 밑줄을 제거하십시오.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Warning" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="285">Network.Get_MyIP():String의 'this' 매개 변수(VB의 경우 'Me')는 사용되지 않습니다. 멤버를 static(VB의 경우 Shared)으로 표시하거나 메서드 본문에서 'this'/'Me'를 사용하거나, 필요한 경우 하나 이상의 속성 접근자를 사용하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Receive():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="178">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.Receive():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ReceiveData():System.Byte[]" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="273">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.ReceiveData():Byte[]'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Send(System.String):System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="203">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.Send(String):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="SendData(System.Byte[]):System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="236">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.SendData(Byte[]):Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ServerStart():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="56">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.ServerStart():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ServerStop():System.Void" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2006-08-04 15:56:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\C#Bible2006\소스코드\ch13\13-3\파일전송-이모티콘채팅\MainChat\MainChat" File="Network.cs" Line="84">'System.Exception'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 'Network.ServerStop():Void'을(를) 수정하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209">
+   <Name>어셈블리는 최소 보안을 선언해야 합니다.</Name>
+   <Description>권한 요청은 어셈블리의 코드가 이미 실행된 후에 예외가 throw되지 않도록 합니다. 권한 요청이 어셈블리에 지정되어 있는 경우 어셈블리에 충분한 권한이 없으면 런타임에 어셈블리가 로드되지 않습니다. 이 규칙 위반을 해결하려면 어셈블리에서 요청하거나 요청할 수 있는 권한을 지정하고 어셈블리를 허용하지 않을 권한을 지정하는 특성을 추가하십시오. 필수 권한을 지정하려면 SecurityAction.Minimum을 사용하십시오. 어셈블리에서 요청할 수 있는 권한을 지정하려면 SecurityAction.RequestOptional을 사용하고 어셈블리를 허용하지 않을 권한을 지정하려면 SecurityAction.RequestRefuse를 사용하십시오.</Description>
+   <Resolution Name="Default">'{0}' 어셈블리에 잘못된 권한 요청이 있습니다. SecurityAction.RequestMinimum을 사용하여 항상 최소 보안 권한을 지정해야 합니다.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="UsageRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>어셈블리에는 올바른 강력한 이름을 사용해야 합니다.</Name>
+   <Description>어셈블리에 강력한 이름이 없거나, 강력한 이름이 잘못되었거나, 컴퓨터 구성 때문에 강력한 이름이 유효합니다. 어셈블리를 이러한 상태로 배포하면 안 됩니다. 가장 일반적인 원인은 다음과 같습니다. 1) 어셈블리를 서명한 후 어셈블리의 내용이 수정되었습니다. 2) 서명 프로세스를 수행하지 못했습니다. 3) 어셈블리의 서명이 연기되었습니다. 4) 생략해서는 안 되는 검사를 생략하는 레지스트리 키가 있습니다.</Description>
+   <Resolution Name="NoStrongName">강력한 이름의 키로 '{0}'을(를) 서명하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009">
+   <Name>이벤트 처리기를 제대로 선언하십시오.</Name>
+   <Description>규칙에 따라 .NET 이벤트는 이벤트 전송자와 이벤트 데이터를 지정하는 두 개의 매개 변수를 사용합니다. 이벤트 처리기 시그니처는 void MyEventHandler(object sender, EventArgs e)와 같은 형식을 따라야 합니다. 'sender' 매개 변수는 좀 더 구체적인 형식을 사용할 수 있는 경우에도 항상 System.Object 형식이어야 하고 'e' 매개 변수는 항상 System.EventArgs 형식이어야 합니다. 이벤트 데이터를 제공하지 않는 이벤트는 System.EventHandler 대리자 형식을 사용해야 합니다. 이벤트 처리기는 각 이벤트를 여러 대상 메서드에 보낼 수 있도록 void를 반환합니다. 대상 메서드에서 반환된 값은 처음 호출한 후에 손실됩니다.</Description>
+   <Resolution Name="Second">'{0}'의 두 번째 매개 변수를 이름이 'e'인 EventArgs, 즉 EventArgs를 확장하는 형식의 인스턴스로 선언하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DisposeObjectsBeforeLosingScope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>범위를 벗어나기 전에 개체를 삭제하십시오.</Name>
+   <Description>삭제 가능한 개체에 대한 모든 참조가 범위를 벗어나기 전에 삭제 가능한 개체를 삭제하지 않으면 개체를 종료할 때까지 개체가 삭제되지 않습니다. AppDomain가 갑자기 다운되면 개체가 종료되지 않으므로 삭제되지 않을 수 있습니다.</Description>
+   <Resolution Name="Default">{0}을(를) 수정하여 모든 코드 경로에 대한 '{2}' 형식의 로컬 {1}을(를) 삭제하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="ReliabilityRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>일반적인 예외 형식을 catch하지 마십시오.</Name>
+   <Description>Exception 또는 SystemException을 catch하면 안 됩니다. 일반적인 예외 형식을 catch하면 라이브러리 사용자에게 런타임 문제가 표시되지 않아 디버깅이 복잡해질 수 있습니다. 적절하게 처리할 수 있는 예외만 catch해야 합니다.</Description>
+   <Resolution Name="Default">'{1}'보다 좀 더 구체적인 예외를 catch하거나 예외를 다시 throw하려면 '{0}'을(를) 수정하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>표시되는 인스턴스 필드를 선언하지 마십시오.</Name>
+   <Description>public 또는 protected 인스턴스 필드는 이러한 데이터 항목의 구현 정보를 변경할 수 있는 기능을 제한합니다. 대신 속성을 사용하십시오. 속성은 유용성이나 성능을 손상시키지 않으며 내부 데이터의 구현 정보를 숨기는 유연성을 제공합니다.</Description>
+   <Resolution Name="Default">'{0}'을(를) private 또는 internal(VB의 경우 Friend, C++의 경우 public private)로 설정하고 public 또는 protected 속성을 제공하여 액세스하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805">
+   <Name>불필요한 초기화를 수행하지 마십시오.</Name>
+   <Description>런타임에서 이미 수행한 초기화를 다시 수행하지 마십시오.</Description>
+   <Resolution Name="Default">{0}에서 {2} 형식의 {1} 필드를 {3}(으)로 초기화합니다. 런타임에서 자동으로 초기화되므로 이 초기화를 제거하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>리터럴을 지역화된 매개 변수로 전달하지 마십시오.</Name>
+   <Description>소스 코드에 포함된 문자열 리터럴은 지역화하기 어렵습니다. 지역화된 문자열이 일반적으로 필요한 상황에서는 문자열 리터럴을 인수로 전달하지 마십시오. 예를 들어, 대부분의 지역화된 응용 프로그램에서는 예외 생성자에 전달된 문자열 인수를 지역화해야 합니다. 따라서 예외 인스턴스를 만드는 경우 문자열 테이블에서 가져온 문자열 인수가 문자열 리터럴보다 적합합니다.</Description>
+   <Resolution Name="Default">{0}은(는) 리터럴을 {2}에 대한 호출의 {1} 매개 변수로 전달합니다. '{3}' 대신 리소스 테이블에서 다음 문자열 인수를 가져오십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>식별자에는 밑줄을 사용할 수 없습니다.</Name>
+   <Description>식별자를 지정할 때 밑줄을 사용하지 마십시오. 응용 프로그램에 대해 생성된 일부 Visual Studio 식별자에 밑줄이 포함되어 있습니다. 일반적으로 공용 식별자에는 밑줄을 사용하지 않아야 합니다.</Description>
+   <Resolution Name="Member">'{0}' 멤버에서 모든 밑줄을 제거하십시오.</Resolution>
+   <Resolution Name="Parameter">'{0}' 매개 변수에서 모든 밑줄을 제거하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705">
+   <Name>긴 머리글자어는 파스칼식 대/소문자를 사용해야 합니다.</Name>
+   <Description>세 자 이상인 머리글자어는 파스칼식 대/소문자를 사용해야 합니다. 예를 들어, XMLSpace 대신 XmlSpace를 사용하십시오. 기존의 관리되지 않는 기호 체계와의 호환성 때문에 이 규칙을 사용할 수 없는 경우도 있습니다. 하지만 일반적으로 이러한 기호는 이 기호를 사용하는 어셈블리 외부에는 나타나지 않아야 합니다.</Description>
+   <Resolution Name="Member">멤버 이름 '{0}'의 대문자 표시를 수정하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>어셈블리를 CLSCompliant로 표시하십시오.</Name>
+   <Description>어셈블리는 CLSCompliant 특성을 사용하여 CLS 규격을 명시적으로 기술해야 합니다. 이 특성이 없는 어셈블리는 CLS 규격이 아닙니다. 어셈블리, 모듈 및 형식은 어셈블리, 모듈 또는 형식의 일부가 CLS 규격이 아니어도 CLS 규격이 될 수 있습니다. 다음과 같은 규칙이 적용됩니다. 1) 해당 요소가 CLSCompliant로 표시되면 모든 비규격 멤버의 CLSCompliant 특성의 인수를 false로 설정해야 합니다. 2) CLS 비규격 멤버 각각에 대해 비교 가능한 CLS 규격 대체 멤버가 제공되어야 합니다.</Description>
+   <Resolution Name="NoAttr">'{0}'은(는) CLSCompliantAttribute로 표시되어야 하며 해당 값은 true여야 합니다.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>멤버를 static으로 표시</Name>
+   <Description>인스턴스 데이터에 액세스하지 않거나 인스턴스 메서드를 호출하지 않는 메서드는 static(VB의 경우 Shared)으로 표시할 수 있습니다. 이렇게 하면 컴파일러는 이 멤버에 대한 비가상 호출 사이트를 내보내므로 런타임에서 개별 호출에 대해 현재 개체 포인터가 null이 아닌지 확인하는 검사가 수행되지 않습니다. 성능에 민감한 코드의 경우 이 방법으로 성능을 크게 향상시킬 수 있습니다. 일부의 경우 현재 개체 인스턴스에 액세스하지 못하는 것은 정확성에 문제가 있기 때문일 수 있습니다.</Description>
+   <Resolution Name="Default">{0}의 'this' 매개 변수(VB의 경우 'Me')는 사용되지 않습니다. 멤버를 static(VB의 경우 Shared)으로 표시하거나 메서드 본문에서 'this'/'Me'를 사용하거나, 필요한 경우 하나 이상의 속성 접근자를 사용하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725">
+   <Name>매개 변수 이름은 기본 선언과 일치해야 합니다.</Name>
+   <Description>기능성을 위해, 재정의된 메서드의 매개 변수 이름은 기본 선언의 매개 변수 이름과 일치해야 합니다.</Description>
+   <Resolution Name="Default">{3}에 선언된 식별자와 일치하도록 {1} 메서드의 매개 변수 이름 '{0}'을(를) '{2}'(으)로 변경하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814">
+   <Name>다차원 배열보다 가변 배열을 사용하십시오.</Name>
+   <Description>다차원 배열은 성능에 나쁜 영향을 줄 수 있으므로 가능하면 가변 배열을 사용하십시오. 가변 배열은 CLS 규격이 아닙니다. CLS 규격이 요구되는 경우에는 다차원 배열을 사용하십시오.</Description>
+   <Resolution Name="Default">'{0}'은(는) 다차원 배열입니다. 가능하면 이 배열을 가변 배열로 바꾸십시오. 가변 배열은 CLS 규격이 아닙니다.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="25">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>사용되지 않는 로컬 항목을 제거하십시오.</Name>
+   <Description>사용되지 않거나 메서드 구현에서 단지 할당만 되는 로컬 항목을 제거하십시오.</Description>
+   <Resolution Name="Default">{0}에서 {2} 형식의 로컬 항목 '{1}'을(를) 선언하는데 이 항목은 사용되지 않거나 단지 할당만 되어 있습니다. 이 로컬 항목을 사용하거나 제거하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>IFormatProvider를 지정하십시오.</Name>
+   <Description>IFormatProvider 인수를 사용하는 오버로드가 있으면 해당 인수를 사용하지 않는 오버로드를 위해 이 오버로드를 항상 호출해야 합니다. 공용 언어 런타임의 일부 메서드는 값을 문자열 표현으로 또는 문자열 표현을 값으로 변환하고, 값을 변환하는 방식을 나타내는 하나 이상의 문자(형식 지정자)가 들어 있는 문자열 매개 변수를 사용합니다. 형식 지정자의 의미가 culture에 따라 다양한 경우 형식 개체는 문자열 표현에 사용되는 실제 문자를 제공합니다. culture 간에 정렬 및 비교 동작을 변경하면 안 되는 경우에는 CultureInfo.InvariantCulture를 지정하십시오.</Description>
+   <Resolution Name="Default">{0}이(가) IFormatProvider를 명시적으로 제공하지 않는 {1}을(를) 호출을 합니다. {2}을(를) 호출하도록 바꿔야 합니다.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300">
+   <Name>MessageBoxOptions를 지정하십시오.</Name>
+   <Description>RTL(Right-To-Left) 언어 시스템에서 제대로 실행하려면 MessageBox.Show에 대한 모든 호출은 MessageBoxOptions를 인수로 지정하는 오버로드를 사용해야 합니다. 프로그램은 RTL 언어 시스템에서 실행되고 있는지 여부를 런타임에 감지하여 올바르게 표시하기 위해 적합한 MessageBoxOptions 값을 전달해야 합니다.</Description>
+   <Resolution Name="Default">{0}을(를) 변경하여 MessageBoxOptions를 지정하는 MessageBox.Show 오버로드를 호출하고, 부모 컨트롤에서 RightToLeft가 RightToLeft.Yes로 설정되어 있는 경우 MessageBoxOptions.RightAlign 및 MessageBoxOptions.RtlReading을 설정하십시오. RightToLeft.Inherit가 설정되어 있는 경우에는 Yes 또는 No를 나타내는 값을 찾을 때까지 부모 컨트롤을 확인하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>문자열 길이를 사용하여 빈 문자열을 테스트하십시오.</Name>
+   <Description>문자열을 테스트하려면 String.Length가 0과 같은지 검사하십시오. "".Equals(someString) 및 String.Empty.Equals(someString)와 같은 구문은 문자열 길이를 테스트하는 것보다 비효율적입니다. 이러한 메서드를 someString.Length == 0과 같은 검사로 바꾸십시오.</Description>
+   <Resolution Name="IsNullOrEmpty">'{2}'의 String.{0}({1})에 대한 호출을 String.IsNullOrEmpty에 대한 호출로 바꾸십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.</Name>
+   <Description>삭제 가능한 멤버를 선언하는 형식은 IDisposable도 구현해야 합니다. 이 형식에 관리되지 않는 리소스가 없는 경우 형식에 종료자를 구현하지 마십시오.</Description>
+   <Resolution Name="Default">'{0}'은(는) 다음 IDisposable 형식 {1}의 멤버를 인스턴스화하므로 IDisposable을 구현하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseGenericEventHandlerInstances" Category="Microsoft.Design" CheckId="CA1003">
+   <Name>제네릭 이벤트 처리기 인스턴스를 사용하십시오.</Name>
+   <Description>제네릭을 지원하는 .NET Framework 버전을 대상으로 하는 경우 이벤트 처리기로 사용되는 새 대리자를 선언하지 마십시오. 대신 EventHandler&lt;T&gt; 인스턴스를 사용하십시오.</Description>
+   <Resolution Name="Default">'{0}'을(를) 제거하고 EventHandler&lt;T&gt;로 바꿔 사용하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="ValidateArgumentsOfPublicMethods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>public 메서드의 인수의 유효성을 검사하십시오.</Name>
+   <Description>public 메서드에 전달된 모든 참조 인수는 임의의 호출자에 의해 제공될 수 있으므로 이러한 참조 인수가 null(VB의 경우 Nothing)인지 검사해야 합니다.</Description>
+   <Resolution Name="Default">외부에 표시되는 메서드 {1}에 전달되는 {0} 매개 변수의 유효성을 검사하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>변수 이름은 필드 이름과 달라야 합니다.</Name>
+   <Description>같은 범위 안에서 인스턴스 필드와 변수 이름은 달라야 합니다.</Description>
+   <Resolution Name="Parameter">{1}에 선언된 매개 변수 '{0}'에 형식의 인스턴스 필드와 같은 이름이 있습니다. 해당 항목 중 하나의 이름을 변경하십시오.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="MaintainabilityRules.dll" Version="8.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">범주</String>
+  <String Key="CollapseAll">모두 축소</String>
+  <String Key="CheckId">확인 ID</String>
+  <String Key="Error">오류</String>
+  <String Key="Errors">개 오류</String>
+  <String Key="Line">줄</String>
+  <String Key="LocationNotStoredInPdb">&lt;Pdb에 위치가 저장되지 않음&gt;</String>
+  <String Key="Project">프로젝트</String>
+  <String Key="Rule">규칙</String>
+  <String Key="RuleDescription">규칙 설명</String>
+  <String Key="Source">소스</String>
+  <String Key="Target">대상</String>
+  <String Key="Warning">경고</String>
+  <String Key="Warnings">경고</String>
+  <String Key="ReportTitle">Microsoft Visual Studio 2005 코드 분석 보고서</String>
+ </Localized>
+</FxCopReport>

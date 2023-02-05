@@ -1,0 +1,5 @@
+bin\Debug\ErrorTcpSvr.exe
+bin\Debug\ErrorTcpSvr.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ErrorTcpSvr.exe
+obj\Debug\ErrorTcpSvr.pdb

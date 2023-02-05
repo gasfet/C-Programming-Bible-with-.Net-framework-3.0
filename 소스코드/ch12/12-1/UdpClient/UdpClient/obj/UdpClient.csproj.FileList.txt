@@ -1,0 +1,5 @@
+bin\Debug\UdpClient.exe
+bin\Debug\UdpClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UdpClient.exe
+obj\Debug\UdpClient.pdb

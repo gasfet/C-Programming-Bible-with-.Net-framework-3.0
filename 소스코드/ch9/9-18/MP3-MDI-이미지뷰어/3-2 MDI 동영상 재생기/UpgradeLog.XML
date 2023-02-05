@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MDIViewer">
+</Property><Property Name="솔루션 파일" Value="E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\MDIViewer.sln">
+</Property><Property Name="사용자 옵션 파일" Value="E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\MDIViewer.suo">
+</Property><Property Name="Date" Value="2006년 9월 10일 일요일">
+</Property><Property Name="Time" Value="오후 12:05">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MDIViewer.sln" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\MDIViewer.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="MDIViewer.suo" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\MDIViewer.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="MDIViewer.csproj" Description="프로젝트 파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\MDIViewer.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="MDIViewer.csproj.user" Description="프로젝트 사용자 파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\MDIViewer.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="AssemblyInfo.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="frmChild.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\frmChild.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="frmMDI.cs" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\frmMDI.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="App.ico" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\App.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="frmChild.resx" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\frmChild.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="frmMDI.resx" Description="파일을 E:\C#Bible2006\소스코드\ch10\10-18\MP3-MDI-이미지뷰어\3-2 MDI 동영상 재생기\Backup\frmMDI.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="MDIViewer.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="MDIViewer" Source="MDIViewer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MDIViewer.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="MDIViewer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MDIViewer" Source="MDIViewer.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

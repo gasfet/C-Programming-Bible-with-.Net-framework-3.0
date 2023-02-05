@@ -1,0 +1,5 @@
+bin\Debug\IpInfo.exe
+bin\Debug\IpInfo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\IpInfo.exe
+obj\Debug\IpInfo.pdb

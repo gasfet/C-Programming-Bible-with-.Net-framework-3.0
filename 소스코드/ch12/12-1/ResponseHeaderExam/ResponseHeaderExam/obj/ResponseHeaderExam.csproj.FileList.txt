@@ -1,0 +1,5 @@
+bin\Debug\ResponseHeaderExam.exe
+bin\Debug\ResponseHeaderExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ResponseHeaderExam.exe
+obj\Debug\ResponseHeaderExam.pdb

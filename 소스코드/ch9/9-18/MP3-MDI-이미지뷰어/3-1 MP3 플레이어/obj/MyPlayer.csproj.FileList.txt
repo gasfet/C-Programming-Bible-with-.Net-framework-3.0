@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MyPlayer.csproj.ResolveComReference.cache
+obj\Debug\MyPlayer.frmList.resources
+obj\Debug\MyPlayer.frmMain.resources
+obj\Debug\MyPlayer.csproj.GenerateResource.Cache

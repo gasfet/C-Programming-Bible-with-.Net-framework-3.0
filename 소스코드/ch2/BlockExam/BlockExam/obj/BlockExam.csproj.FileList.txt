@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\BlockExam.exe
+bin\Debug\BlockExam.pdb
+obj\Debug\BlockExam.exe
+obj\Debug\BlockExam.pdb

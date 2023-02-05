@@ -1,0 +1,2 @@
+obj\Debug\MyButton.exe
+obj\Debug\MyButton.pdb

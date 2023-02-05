@@ -1,0 +1,6 @@
+bin\Debug\ReceiveSerialExample.exe
+bin\Debug\ReceiveSerialExample.pdb
+bin\Debug\SerialExample.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ReceiveSerialExample.exe
+obj\Debug\ReceiveSerialExample.pdb

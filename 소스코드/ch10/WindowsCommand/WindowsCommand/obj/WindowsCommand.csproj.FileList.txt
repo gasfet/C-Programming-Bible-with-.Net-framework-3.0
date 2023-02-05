@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsCommand.Form1.resources
+obj\Debug\WindowsCommand.Properties.Resources.resources
+obj\Debug\WindowsCommand.csproj.GenerateResource.Cache
+bin\Debug\WindowsCommand.exe
+bin\Debug\WindowsCommand.pdb
+obj\Debug\WindowsCommand.exe
+obj\Debug\WindowsCommand.pdb

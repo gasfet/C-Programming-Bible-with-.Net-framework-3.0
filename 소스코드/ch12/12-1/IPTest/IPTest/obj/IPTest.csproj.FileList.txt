@@ -1,0 +1,5 @@
+bin\Debug\IPTest.exe
+bin\Debug\IPTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\IPTest.exe
+obj\Debug\IPTest.pdb

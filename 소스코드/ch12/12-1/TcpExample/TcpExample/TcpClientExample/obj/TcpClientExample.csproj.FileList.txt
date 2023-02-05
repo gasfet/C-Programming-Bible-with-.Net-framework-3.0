@@ -1,0 +1,5 @@
+obj\Debug\TcpClientExample.exe
+obj\Debug\TcpClientExample.pdb
+bin\Debug\TcpClientExample.exe
+bin\Debug\TcpClientExample.pdb
+obj\Debug\ResolveAssemblyReference.cache

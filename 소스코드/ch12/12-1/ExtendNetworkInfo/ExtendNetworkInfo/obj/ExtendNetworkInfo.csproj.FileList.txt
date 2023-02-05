@@ -1,0 +1,5 @@
+bin\Debug\ExtendNetworkInfo.exe
+bin\Debug\ExtendNetworkInfo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ExtendNetworkInfo.exe
+obj\Debug\ExtendNetworkInfo.pdb

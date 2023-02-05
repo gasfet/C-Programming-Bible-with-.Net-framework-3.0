@@ -1,0 +1,12 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:SerialExample id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/assem/SerialExample%2C%20Version%3D0.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<id>2</id>
+<name xsi:null="1"/>
+<kor>0</kor>
+<math>0</math>
+<eng>0</eng>
+<date>2006-07-23T22:56:25.2656250+09:00</date>
+</a1:SerialExample>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

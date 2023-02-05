@@ -1,0 +1,5 @@
+bin\Debug\XPathNavigatorExam.exe
+bin\Debug\XPathNavigatorExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XPathNavigatorExam.exe
+obj\Debug\XPathNavigatorExam.pdb

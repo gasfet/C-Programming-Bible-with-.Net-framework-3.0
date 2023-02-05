@@ -1,0 +1,7 @@
+obj\Debug\TimeClient.exe
+obj\Debug\TimeClient.pdb
+bin\Debug\TimeClient.exe
+bin\Debug\TimeClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TimeClient.Form1.resources
+obj\Debug\TimeClient.csproj.GenerateResource.Cache

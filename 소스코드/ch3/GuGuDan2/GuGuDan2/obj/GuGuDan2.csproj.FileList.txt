@@ -1,0 +1,5 @@
+bin\Debug\GuGuDan2.exe
+bin\Debug\GuGuDan2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GuGuDan2.exe
+obj\Debug\GuGuDan2.pdb

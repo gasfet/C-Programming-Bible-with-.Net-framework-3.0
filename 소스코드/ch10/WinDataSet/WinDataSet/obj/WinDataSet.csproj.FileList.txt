@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinDataSet.Form1.resources
+obj\Debug\WinDataSet.Properties.Resources.resources
+obj\Debug\WinDataSet.csproj.GenerateResource.Cache
+bin\Debug\WinDataSet.exe
+bin\Debug\WinDataSet.pdb
+obj\Debug\WinDataSet.exe
+obj\Debug\WinDataSet.pdb

@@ -1,0 +1,5 @@
+bin\Debug\TableAnalysis.exe
+bin\Debug\TableAnalysis.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TableAnalysis.exe
+obj\Debug\TableAnalysis.pdb

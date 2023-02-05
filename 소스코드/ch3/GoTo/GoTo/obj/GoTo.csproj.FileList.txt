@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\GoTo.exe
+bin\Debug\GoTo.pdb
+obj\Debug\GoTo.exe
+obj\Debug\GoTo.pdb

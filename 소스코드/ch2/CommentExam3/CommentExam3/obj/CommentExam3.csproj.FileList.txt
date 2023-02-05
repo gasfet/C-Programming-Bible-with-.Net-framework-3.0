@@ -1,0 +1,6 @@
+bin\Debug\CommentExam3.exe
+bin\Debug\CommentExam3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CommentExam3.exe
+obj\Debug\CommentExam3.pdb
+bin\Debug\CommentExam3.XML

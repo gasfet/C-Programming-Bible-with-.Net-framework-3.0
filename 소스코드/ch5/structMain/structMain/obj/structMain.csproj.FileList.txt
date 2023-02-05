@@ -1,0 +1,5 @@
+bin\Debug\structMain.exe
+bin\Debug\structMain.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\structMain.exe
+obj\Debug\structMain.pdb

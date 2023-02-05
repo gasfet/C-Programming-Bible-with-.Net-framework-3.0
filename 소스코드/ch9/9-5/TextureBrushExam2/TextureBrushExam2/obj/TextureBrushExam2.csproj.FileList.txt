@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\TextureBrushExam2.exe
+bin\Debug\TextureBrushExam2.pdb
+obj\Debug\TextureBrushExam2.exe
+obj\Debug\TextureBrushExam2.pdb

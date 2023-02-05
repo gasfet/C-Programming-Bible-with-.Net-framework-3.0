@@ -1,0 +1,5 @@
+bin\Debug\MatrixExam.exe
+bin\Debug\MatrixExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MatrixExam.exe
+obj\Debug\MatrixExam.pdb

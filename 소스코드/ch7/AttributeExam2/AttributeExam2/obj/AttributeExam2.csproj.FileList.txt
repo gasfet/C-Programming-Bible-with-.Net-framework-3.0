@@ -1,0 +1,5 @@
+bin\Debug\AttributeExam2.exe
+bin\Debug\AttributeExam2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AttributeExam2.exe
+obj\Debug\AttributeExam2.pdb

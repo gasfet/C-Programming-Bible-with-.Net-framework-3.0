@@ -1,0 +1,5 @@
+bin\Debug\Continue.exe
+bin\Debug\Continue.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Continue.exe
+obj\Debug\Continue.pdb

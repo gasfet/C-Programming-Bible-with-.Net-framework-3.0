@@ -1,0 +1,5 @@
+bin\Debug\Calculator.exe
+bin\Debug\Calculator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Calculator.exe
+obj\Debug\Calculator.pdb

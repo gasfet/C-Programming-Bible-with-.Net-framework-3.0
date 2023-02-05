@@ -1,0 +1,5 @@
+bin\Debug\DataRowExam.exe
+bin\Debug\DataRowExam.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataRowExam.exe
+obj\Debug\DataRowExam.pdb

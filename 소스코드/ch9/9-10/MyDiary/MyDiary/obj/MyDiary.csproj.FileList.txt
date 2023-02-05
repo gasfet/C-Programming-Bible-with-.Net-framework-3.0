@@ -1,0 +1,13 @@
+bin\Debug\MyDiary.exe
+bin\Debug\MyDiary.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MyDiary.background.jpg
+obj\Debug\MyDiary.weather1.gif
+obj\Debug\MyDiary.weather2.gif
+obj\Debug\MyDiary.weather3.gif
+obj\Debug\MyDiary.weather4.gif
+obj\Debug\MyDiary.Properties.Resources.resources
+obj\Debug\MyDiary.Form1.resources
+obj\Debug\MyDiary.csproj.GenerateResource.Cache
+obj\Debug\MyDiary.exe
+obj\Debug\MyDiary.pdb

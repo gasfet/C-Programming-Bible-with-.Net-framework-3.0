@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpExample", "TcpExample\TcpExample.csproj", "{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClientExample", "TcpClientExample\TcpClientExample.csproj", "{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Debug.ActiveCfg = Debug|.NET
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Debug.Build.0 = Debug|.NET
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Release.ActiveCfg = Release|.NET
+		{374B522C-99C1-46DF-88ED-C6DDEF6F1BE5}.Release.Build.0 = Release|.NET
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Debug.ActiveCfg = Debug|.NET
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Debug.Build.0 = Debug|.NET
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Release.ActiveCfg = Release|.NET
+		{A72B8C4B-D59C-48CF-B6F5-7F49B9B3540E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

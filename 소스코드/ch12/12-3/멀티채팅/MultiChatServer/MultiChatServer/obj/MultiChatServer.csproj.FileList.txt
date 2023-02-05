@@ -1,0 +1,8 @@
+bin\Debug\MultiChatServer.exe
+bin\Debug\MultiChatServer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MultiChatServer.MainWnd.resources
+obj\Debug\MultiChatServer.Properties.Resources.resources
+obj\Debug\MultiChatServer.csproj.GenerateResource.Cache
+obj\Debug\MultiChatServer.exe
+obj\Debug\MultiChatServer.pdb

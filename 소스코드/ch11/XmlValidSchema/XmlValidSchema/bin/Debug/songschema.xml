@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<!-- songdata list -->
+<songdata xmlns="song.xsd">
+  <song genre="ballade" price="7000">
+    <title>아름다운세상</title>
+    <singer>박학기</singer>
+    <year>1990</year>
+  </song>
+  <song genre="rock" price="5000">
+    <title>슈퍼스타</title>
+    <singer>러브홀릭</singer>
+    <year>2003</year>
+  </song>
+</songdata>
